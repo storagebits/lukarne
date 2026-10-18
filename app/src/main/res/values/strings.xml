@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lukarne</string>
+    <string name="globe_world">The world</string>
+    <string name="globe_day">DAYLIGHT</string>
+    <string name="globe_night">NIGHT</string>
+    <string name="globe_cams">%1$d webcams</string>
+    <string name="globe_cams_live">%1$d webcams · %2$d live</string>
+    <string name="hint_travel">Arrows to travel</string>
+    <string name="hint_explore">explore</string>
+    <string name="hint_watch">watch</string>
+    <string name="hint_surprise">surprise me</string>
+    <string name="splash_tagline">a window onto the world</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_unit">Temperature</string>
+    <string name="settings_sources">SOURCES</string>
+    <string name="settings_credits">Caltrans (California DOT) · DelDOT (Delaware DOT) · Fintraffic Digitraffic, CC BY 4.0 · YouTube live streams, played in YouTube\'s player · Weather: Open-Meteo.com, CC BY 4.0 · Maps: Natural Earth</string>
+    <string name="hint_settings">BACK  settings</string>
+    <string name="settings_stills">Still images</string>
+    <string name="settings_stills_hint">Off: only live video, everywhere. On: also show webcams that update a picture every few minutes.</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="leave_quit">Quit lukarne</string>
+    <string name="leave_hint">BACK to return to the globe</string>
+    <plurals name="globe_live_only">
+        <item quantity="one">%d live webcam</item>
+        <item quantity="other">%d live webcams</item>
+    </plurals>
+    <string name="settings_mini">Corner player</string>
+    <string name="settings_mini_hint">On: a cam you leave from fullscreen keeps playing in a corner while you browse. BACK on the whole globe closes it.</string>
+    <string name="settings_demo">Demo: time per cam</string>
+    <string name="settings_demo_hint">The demo starts from the menu BACK opens on the whole globe. RIGHT skips a cam, OK stays on it, BACK stops.</string>
+    <string name="leave_demo">Demo mode</string>
+    <string name="demo_hint">OK  stay here   ·   RIGHT  next   ·   BACK  stop</string>
+    <string name="update_available">Version %1$s is available</string>
+    <string name="update_where">On the TV, in the Downloader app: %1$s</string>
+    <string name="update_installed">Version %1$s</string>
+</resources>

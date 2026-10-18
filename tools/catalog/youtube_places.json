@@ -1,0 +1,1386 @@
+[
+ {
+  "place": "Jackson Hole Town Square",
+  "locality": "Jackson Hole",
+  "country": "US",
+  "lat": 43.4799,
+  "lon": -110.7624,
+  "q": "Jackson Hole live cam",
+  "match": [
+   "jackson"
+  ],
+  "ids": [
+   "1EiC9bvVGnk",
+   {
+    "id": "6aJXND_Lfk8",
+    "place": "Cache Street, Jackson Hole"
+   }
+  ]
+ },
+ {
+  "place": "Namib Desert waterhole",
+  "locality": "Namib Desert",
+  "country": "NA",
+  "lat": -24.73,
+  "lon": 15.29,
+  "q": "Namibia waterhole live",
+  "match": [
+   "namib"
+  ],
+  "ids": [
+   "ydYDqZQpim8"
+  ]
+ },
+ {
+  "place": "Kabukicho, Shinjuku",
+  "locality": "Tokyo",
+  "country": "JP",
+  "lat": 35.6945,
+  "lon": 139.703,
+  "q": "Shinjuku live camera",
+  "match": [
+   "shinjuku",
+   "新宿",
+   "kabukicho"
+  ],
+  "ids": [
+   "DjdUEyjx8GM",
+   {
+    "id": "gFRtAAmiFbE",
+    "place": "Kabukicho II, Shinjuku"
+   }
+  ]
+ },
+ {
+  "place": "Shibuya Scramble Crossing",
+  "locality": "Tokyo",
+  "country": "JP",
+  "lat": 35.6595,
+  "lon": 139.7005,
+  "q": "Shibuya scramble crossing live",
+  "match": [
+   "shibuya",
+   "渋谷"
+  ],
+  "ids": [
+   "dfVK7ld38Ys"
+  ]
+ },
+ {
+  "place": "Times Square",
+  "locality": "New York",
+  "country": "US",
+  "lat": 40.758,
+  "lon": -73.9855,
+  "q": "Times Square live cam",
+  "match": [
+   "times square"
+  ],
+  "ids": [
+   "rnXIjl_Rzy4",
+   {
+    "id": "eJ7ZkQ5TC08",
+    "place": "Times Square, 4K"
+   }
+  ]
+ },
+ {
+  "place": "Abbey Road Crossing",
+  "locality": "London",
+  "country": "GB",
+  "lat": 51.532,
+  "lon": -0.1779,
+  "q": "London live webcam",
+  "match": [
+   "london"
+  ],
+  "ids": [
+   "M3EYAY2MftI"
+  ]
+ },
+ {
+  "place": "Temple Bar",
+  "locality": "Dublin",
+  "country": "IE",
+  "lat": 53.3454,
+  "lon": -6.2642,
+  "q": "Dublin live cam",
+  "match": [
+   "dublin"
+  ],
+  "ids": [
+   "3nyPER2kzqk",
+   {
+    "id": "u4UZ4UvZXrg",
+    "place": "Dublin streets"
+   }
+  ]
+ },
+ {
+  "place": "Tembe Elephant Park",
+  "locality": "Tembe",
+  "country": "ZA",
+  "lat": -26.95,
+  "lon": 32.42,
+  "q": "Africam live",
+  "match": [
+   "africam",
+   "tembe",
+   "balule",
+   "olifants"
+  ],
+  "ids": [
+   "VUJbDTIYlM4"
+  ]
+ },
+ {
+  "place": "Northern lights, Churchill",
+  "locality": "Churchill",
+  "country": "CA",
+  "lat": 58.7684,
+  "lon": -94.165,
+  "q": "northern lights live cam explore",
+  "match": [
+   "northern lights",
+   "aurora"
+  ],
+  "ids": [
+   "a0i1Kg6fROg"
+  ]
+ },
+ {
+  "place": "Hollywood Beach Broadwalk",
+  "locality": "Hollywood",
+  "country": "US",
+  "lat": 26.0112,
+  "lon": -80.118,
+  "q": "Hollywood Beach live cam",
+  "match": [
+   "hollywood beach"
+  ],
+  "ids": [
+   "cmkAbDUEoyA"
+  ]
+ },
+ {
+  "place": "Coldwater four corners",
+  "locality": "Coldwater",
+  "country": "US",
+  "lat": 41.9403,
+  "lon": -85.0006,
+  "match": [
+   "coldwater"
+  ],
+  "ids": [
+   "ByED80IKdIU"
+  ]
+ },
+ {
+  "place": "Tilton village",
+  "locality": "Tilton",
+  "country": "US",
+  "lat": 43.4423,
+  "lon": -71.5895,
+  "match": [
+   "tilton"
+  ],
+  "ids": [
+   "5_XSYlAfJZM"
+  ]
+ },
+ {
+  "place": "Grand Canal",
+  "locality": "Venice",
+  "country": "IT",
+  "lat": 45.438,
+  "lon": 12.3358,
+  "q": "Venice live webcam Grand Canal",
+  "match": [
+   "venice",
+   "venezia"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Rome",
+  "locality": "Rome",
+  "country": "IT",
+  "lat": 41.9009,
+  "lon": 12.4833,
+  "q": "Rome live webcam",
+  "match": [
+   "rome",
+   "roma"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Florence",
+  "locality": "Florence",
+  "country": "IT",
+  "lat": 43.7696,
+  "lon": 11.2558,
+  "q": "Florence live webcam",
+  "match": [
+   "florence",
+   "firenze"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Amalfi Coast",
+  "locality": "Positano",
+  "country": "IT",
+  "lat": 40.6281,
+  "lon": 14.485,
+  "q": "Positano live cam",
+  "match": [
+   "positano",
+   "amalfi"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Lake Como",
+  "locality": "Como",
+  "country": "IT",
+  "lat": 45.98,
+  "lon": 9.26,
+  "q": "Lake Como live webcam",
+  "match": [
+   "como",
+   "bellagio"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Santorini",
+  "locality": "Santorini",
+  "country": "GR",
+  "lat": 36.4618,
+  "lon": 25.3753,
+  "q": "Santorini live cam",
+  "match": [
+   "santorini",
+   "oia",
+   "fira"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Athens",
+  "locality": "Athens",
+  "country": "GR",
+  "lat": 37.9715,
+  "lon": 23.7257,
+  "q": "Athens Acropolis live cam",
+  "match": [
+   "athens",
+   "acropolis"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Dubrovnik",
+  "locality": "Dubrovnik",
+  "country": "HR",
+  "lat": 42.6407,
+  "lon": 18.1077,
+  "q": "Dubrovnik live cam",
+  "match": [
+   "dubrovnik"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Istanbul",
+  "locality": "Istanbul",
+  "country": "TR",
+  "lat": 41.0256,
+  "lon": 28.9744,
+  "q": "Istanbul live cam Bosphorus",
+  "match": [
+   "istanbul",
+   "bosphorus"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Paris",
+  "locality": "Paris",
+  "country": "FR",
+  "lat": 48.8584,
+  "lon": 2.2945,
+  "q": "Paris live webcam Eiffel",
+  "match": [
+   "paris"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Nice",
+  "locality": "Nice",
+  "country": "FR",
+  "lat": 43.695,
+  "lon": 7.265,
+  "q": "Nice live webcam",
+  "match": [
+   "nice",
+   "promenade"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Chamonix",
+  "locality": "Chamonix",
+  "country": "FR",
+  "lat": 45.9237,
+  "lon": 6.8694,
+  "q": "Chamonix live cam",
+  "match": [
+   "chamonix",
+   "mont blanc"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Zermatt",
+  "locality": "Zermatt",
+  "country": "CH",
+  "lat": 46.0207,
+  "lon": 7.7491,
+  "q": "Zermatt live cam Matterhorn",
+  "match": [
+   "zermatt",
+   "matterhorn"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Interlaken",
+  "locality": "Interlaken",
+  "country": "CH",
+  "lat": 46.6863,
+  "lon": 7.8632,
+  "q": "Interlaken Jungfrau live cam",
+  "match": [
+   "interlaken",
+   "jungfrau",
+   "grindelwald"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Hallstatt",
+  "locality": "Hallstatt",
+  "country": "AT",
+  "lat": 47.5622,
+  "lon": 13.6493,
+  "q": "Hallstatt live cam",
+  "match": [
+   "hallstatt"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Amsterdam",
+  "locality": "Amsterdam",
+  "country": "NL",
+  "lat": 52.3731,
+  "lon": 4.8922,
+  "q": "Amsterdam live cam",
+  "match": [
+   "amsterdam"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Berlin",
+  "locality": "Berlin",
+  "country": "DE",
+  "lat": 52.5163,
+  "lon": 13.3777,
+  "q": "Berlin live webcam",
+  "match": [
+   "berlin"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Prague",
+  "locality": "Prague",
+  "country": "CZ",
+  "lat": 50.0865,
+  "lon": 14.4114,
+  "q": "Prague live webcam",
+  "match": [
+   "prague",
+   "praha"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Barcelona",
+  "locality": "Barcelona",
+  "country": "ES",
+  "lat": 41.3809,
+  "lon": 2.1228,
+  "q": "Barcelona live webcam",
+  "match": [
+   "barcelona"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Lisbon",
+  "locality": "Lisbon",
+  "country": "PT",
+  "lat": 38.7078,
+  "lon": -9.1365,
+  "q": "Lisbon live cam",
+  "match": [
+   "lisbon",
+   "lisboa"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Canary Islands",
+  "locality": "Tenerife",
+  "country": "ES",
+  "lat": 28.2916,
+  "lon": -16.6291,
+  "q": "Tenerife live cam",
+  "match": [
+   "tenerife",
+   "canary",
+   "canarias"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Edinburgh",
+  "locality": "Edinburgh",
+  "country": "GB",
+  "lat": 55.9533,
+  "lon": -3.1883,
+  "q": "Edinburgh live cam",
+  "match": [
+   "edinburgh"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Reykjavik",
+  "locality": "Reykjavik",
+  "country": "IS",
+  "lat": 64.1466,
+  "lon": -21.9426,
+  "q": "Reykjavik live cam",
+  "match": [
+   "reykjav"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Reykjanes volcano",
+  "locality": "Grindavik",
+  "country": "IS",
+  "lat": 63.88,
+  "lon": -22.45,
+  "q": "Iceland volcano live",
+  "match": [
+   "reykjanes",
+   "grindav",
+   "volcano",
+   "sundhn"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Lofoten",
+  "locality": "Lofoten",
+  "country": "NO",
+  "lat": 68.234,
+  "lon": 14.5683,
+  "q": "Lofoten live cam",
+  "match": [
+   "lofoten",
+   "svolvær",
+   "reine"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Bergen",
+  "locality": "Bergen",
+  "country": "NO",
+  "lat": 60.3929,
+  "lon": 5.3241,
+  "q": "Bergen live cam",
+  "match": [
+   "bergen"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Stockholm",
+  "locality": "Stockholm",
+  "country": "SE",
+  "lat": 59.3293,
+  "lon": 18.0686,
+  "q": "Stockholm live cam",
+  "match": [
+   "stockholm"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Helsinki",
+  "locality": "Helsinki",
+  "country": "FI",
+  "lat": 60.1699,
+  "lon": 24.9384,
+  "q": "Helsinki live cam",
+  "match": [
+   "helsinki"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Lapland",
+  "locality": "Rovaniemi",
+  "country": "FI",
+  "lat": 66.5039,
+  "lon": 25.7294,
+  "q": "Lapland live cam",
+  "match": [
+   "lapland",
+   "rovaniemi",
+   "abisko",
+   "tromsø",
+   "tromso"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Svalbard",
+  "locality": "Longyearbyen",
+  "country": "NO",
+  "lat": 78.2232,
+  "lon": 15.6267,
+  "q": "Svalbard live cam",
+  "match": [
+   "svalbard",
+   "longyearbyen"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Kyoto",
+  "locality": "Kyoto",
+  "country": "JP",
+  "lat": 35.0037,
+  "lon": 135.7788,
+  "q": "Kyoto live camera",
+  "match": [
+   "kyoto",
+   "京都"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Osaka Dotonbori",
+  "locality": "Osaka",
+  "country": "JP",
+  "lat": 34.6687,
+  "lon": 135.5013,
+  "q": "Dotonbori live camera",
+  "match": [
+   "osaka",
+   "dotonbori",
+   "道頓堀",
+   "大阪"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Mount Fuji",
+  "locality": "Fujikawaguchiko",
+  "country": "JP",
+  "lat": 35.5,
+  "lon": 138.76,
+  "q": "Mount Fuji live camera",
+  "match": [
+   "fuji",
+   "富士"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Sapporo",
+  "locality": "Sapporo",
+  "country": "JP",
+  "lat": 43.0618,
+  "lon": 141.3545,
+  "q": "Sapporo live camera",
+  "match": [
+   "sapporo",
+   "札幌"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Okinawa",
+  "locality": "Naha",
+  "country": "JP",
+  "lat": 26.2124,
+  "lon": 127.6809,
+  "q": "Okinawa live camera beach",
+  "match": [
+   "okinawa",
+   "沖縄"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Seoul",
+  "locality": "Seoul",
+  "country": "KR",
+  "lat": 37.5665,
+  "lon": 126.978,
+  "q": "Seoul live cam",
+  "match": [
+   "seoul",
+   "서울"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Taipei",
+  "locality": "Taipei",
+  "country": "TW",
+  "lat": 25.033,
+  "lon": 121.5654,
+  "q": "Taipei live cam",
+  "match": [
+   "taipei",
+   "台北"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Hong Kong",
+  "locality": "Hong Kong",
+  "country": "HK",
+  "lat": 22.293,
+  "lon": 114.1694,
+  "q": "Hong Kong Victoria Harbour live",
+  "match": [
+   "hong kong",
+   "victoria harbour"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Bangkok",
+  "locality": "Bangkok",
+  "country": "TH",
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "q": "Bangkok live cam",
+  "match": [
+   "bangkok"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Phuket",
+  "locality": "Phuket",
+  "country": "TH",
+  "lat": 7.8961,
+  "lon": 98.296,
+  "q": "Phuket Patong beach live cam",
+  "match": [
+   "phuket",
+   "patong"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Bali",
+  "locality": "Bali",
+  "country": "ID",
+  "lat": -8.7184,
+  "lon": 115.1686,
+  "q": "Bali live cam beach",
+  "match": [
+   "bali",
+   "kuta",
+   "canggu"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Singapore",
+  "locality": "Singapore",
+  "country": "SG",
+  "lat": 1.2834,
+  "lon": 103.8607,
+  "q": "Singapore live cam Marina Bay",
+  "match": [
+   "singapore"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Ho Chi Minh City",
+  "locality": "Ho Chi Minh City",
+  "country": "VN",
+  "lat": 10.7769,
+  "lon": 106.7009,
+  "q": "Saigon live cam",
+  "match": [
+   "saigon",
+   "ho chi minh"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Mumbai",
+  "locality": "Mumbai",
+  "country": "IN",
+  "lat": 18.922,
+  "lon": 72.8347,
+  "q": "Mumbai live cam",
+  "match": [
+   "mumbai"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Dubai",
+  "locality": "Dubai",
+  "country": "AE",
+  "lat": 25.1972,
+  "lon": 55.2744,
+  "q": "Dubai live cam",
+  "match": [
+   "dubai"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Jerusalem",
+  "locality": "Jerusalem",
+  "country": "IL",
+  "lat": 31.7767,
+  "lon": 35.2345,
+  "q": "Jerusalem Western Wall live",
+  "match": [
+   "jerusalem",
+   "western wall",
+   "kotel"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Cairo",
+  "locality": "Giza",
+  "country": "EG",
+  "lat": 29.9792,
+  "lon": 31.1342,
+  "q": "Giza pyramids live cam",
+  "match": [
+   "giza",
+   "pyramid",
+   "cairo"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Marrakesh",
+  "locality": "Marrakesh",
+  "country": "MA",
+  "lat": 31.6258,
+  "lon": -7.9891,
+  "q": "Marrakech live cam",
+  "match": [
+   "marrakech",
+   "marrakesh"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Kruger",
+  "locality": "Kruger",
+  "country": "ZA",
+  "lat": -24.0,
+  "lon": 31.5,
+  "q": "Kruger live cam waterhole",
+  "match": [
+   "kruger",
+   "sabi",
+   "djuma"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Kenya waterhole",
+  "locality": "Mpala",
+  "country": "KE",
+  "lat": 0.29,
+  "lon": 36.9,
+  "q": "Kenya live cam waterhole Mpala",
+  "match": [
+   "kenya",
+   "mpala",
+   "hippo"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Cape Town",
+  "locality": "Cape Town",
+  "country": "ZA",
+  "lat": -33.9036,
+  "lon": 18.4207,
+  "q": "Cape Town live cam",
+  "match": [
+   "cape town",
+   "table mountain"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Sydney Harbour",
+  "locality": "Sydney",
+  "country": "AU",
+  "lat": -33.8568,
+  "lon": 151.2153,
+  "q": "Sydney Harbour live cam",
+  "match": [
+   "sydney"
+  ],
+  "ids": [
+   "jshwkG1ZpP8"
+  ]
+ },
+ {
+  "place": "Bondi Beach",
+  "locality": "Sydney",
+  "country": "AU",
+  "lat": -33.8915,
+  "lon": 151.2767,
+  "q": "Bondi beach live cam",
+  "match": [
+   "bondi"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Gold Coast",
+  "locality": "Gold Coast",
+  "country": "AU",
+  "lat": -28.0167,
+  "lon": 153.4,
+  "q": "Gold Coast live cam surf",
+  "match": [
+   "gold coast",
+   "surfers paradise",
+   "burleigh"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Queenstown",
+  "locality": "Queenstown",
+  "country": "NZ",
+  "lat": -45.0312,
+  "lon": 168.6626,
+  "q": "Queenstown live cam",
+  "match": [
+   "queenstown"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Auckland",
+  "locality": "Auckland",
+  "country": "NZ",
+  "lat": -36.8485,
+  "lon": 174.7633,
+  "q": "Auckland live cam",
+  "match": [
+   "auckland"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Waikiki",
+  "locality": "Honolulu",
+  "country": "US",
+  "lat": 21.2766,
+  "lon": -157.8278,
+  "q": "Waikiki live cam",
+  "match": [
+   "waikiki",
+   "honolulu"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Maui",
+  "locality": "Maui",
+  "country": "US",
+  "lat": 20.8893,
+  "lon": -156.4729,
+  "q": "Maui live cam",
+  "match": [
+   "maui",
+   "lahaina",
+   "kaanapali"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Kilauea",
+  "locality": "Hawaii Volcanoes",
+  "country": "US",
+  "lat": 19.4069,
+  "lon": -155.2834,
+  "q": "Kilauea live",
+  "match": [
+   "kilauea",
+   "halemaumau",
+   "volcano"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Rio de Janeiro",
+  "locality": "Rio de Janeiro",
+  "country": "BR",
+  "lat": -22.9711,
+  "lon": -43.1822,
+  "q": "Rio de Janeiro live cam Copacabana",
+  "match": [
+   "rio",
+   "copacabana",
+   "ipanema"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Buenos Aires",
+  "locality": "Buenos Aires",
+  "country": "AR",
+  "lat": -34.6037,
+  "lon": -58.3816,
+  "q": "Buenos Aires live cam",
+  "match": [
+   "buenos aires"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Patagonia",
+  "locality": "El Calafate",
+  "country": "AR",
+  "lat": -50.337,
+  "lon": -72.2648,
+  "q": "Patagonia live cam",
+  "match": [
+   "patagonia",
+   "calafate",
+   "torres",
+   "ushuaia"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Machu Picchu",
+  "locality": "Cusco",
+  "country": "PE",
+  "lat": -13.1631,
+  "lon": -72.545,
+  "q": "Cusco live cam",
+  "match": [
+   "cusco",
+   "machu picchu"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Panama Canal",
+  "locality": "Panama City",
+  "country": "PA",
+  "lat": 9.08,
+  "lon": -79.68,
+  "q": "Panama Canal live cam",
+  "match": [
+   "panama"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Cancún",
+  "locality": "Cancún",
+  "country": "MX",
+  "lat": 21.1619,
+  "lon": -86.8515,
+  "q": "Cancun live cam",
+  "match": [
+   "cancun",
+   "cancún",
+   "playa del carmen",
+   "tulum"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Mexico City",
+  "locality": "Mexico City",
+  "country": "MX",
+  "lat": 19.4326,
+  "lon": -99.1332,
+  "q": "Mexico City live cam Zocalo",
+  "match": [
+   "mexico city",
+   "ciudad de méxico",
+   "zocalo",
+   "zócalo"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Havana",
+  "locality": "Havana",
+  "country": "CU",
+  "lat": 23.1136,
+  "lon": -82.3666,
+  "q": "Havana live cam",
+  "match": [
+   "havana",
+   "habana"
+  ],
+  "ids": []
+ },
+ {
+  "place": "St. Maarten",
+  "locality": "Philipsburg",
+  "country": "SX",
+  "lat": 18.0425,
+  "lon": -63.0548,
+  "q": "St Maarten live cam Maho beach",
+  "match": [
+   "maarten",
+   "maho"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Bahamas",
+  "locality": "Nassau",
+  "country": "BS",
+  "lat": 25.048,
+  "lon": -77.3554,
+  "q": "Bahamas live cam",
+  "match": [
+   "bahamas",
+   "nassau"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Key West",
+  "locality": "Key West",
+  "country": "US",
+  "lat": 24.5551,
+  "lon": -81.78,
+  "q": "Key West live cam",
+  "match": [
+   "key west"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Miami Beach",
+  "locality": "Miami Beach",
+  "country": "US",
+  "lat": 25.7907,
+  "lon": -80.13,
+  "q": "Miami Beach live cam",
+  "match": [
+   "miami"
+  ],
+  "ids": []
+ },
+ {
+  "place": "New Orleans",
+  "locality": "New Orleans",
+  "country": "US",
+  "lat": 29.9584,
+  "lon": -90.0644,
+  "q": "Bourbon Street live cam",
+  "match": [
+   "new orleans",
+   "bourbon"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Nashville",
+  "locality": "Nashville",
+  "country": "US",
+  "lat": 36.1612,
+  "lon": -86.7775,
+  "q": "Nashville Broadway live cam",
+  "match": [
+   "nashville"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Chicago",
+  "locality": "Chicago",
+  "country": "US",
+  "lat": 41.8827,
+  "lon": -87.6233,
+  "q": "Chicago live cam",
+  "match": [
+   "chicago"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Niagara Falls",
+  "locality": "Niagara Falls",
+  "country": "CA",
+  "lat": 43.0896,
+  "lon": -79.0849,
+  "q": "Niagara Falls live cam",
+  "match": [
+   "niagara"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Montréal",
+  "locality": "Montréal",
+  "country": "CA",
+  "lat": 45.5019,
+  "lon": -73.5674,
+  "q": "Montreal live cam",
+  "match": [
+   "montreal",
+   "montréal"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Québec City",
+  "locality": "Québec",
+  "country": "CA",
+  "lat": 46.8123,
+  "lon": -71.2045,
+  "q": "Quebec City live cam",
+  "match": [
+   "québec",
+   "quebec"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Halifax",
+  "locality": "Halifax",
+  "country": "CA",
+  "lat": 44.6488,
+  "lon": -63.5752,
+  "q": "Halifax harbour live cam",
+  "match": [
+   "halifax"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Boston",
+  "locality": "Boston",
+  "country": "US",
+  "lat": 42.3601,
+  "lon": -71.0589,
+  "q": "Boston live cam",
+  "match": [
+   "boston"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Washington DC",
+  "locality": "Washington",
+  "country": "US",
+  "lat": 38.8899,
+  "lon": -77.0091,
+  "q": "Washington DC live cam",
+  "match": [
+   "washington"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Las Vegas",
+  "locality": "Las Vegas",
+  "country": "US",
+  "lat": 36.1147,
+  "lon": -115.1728,
+  "q": "Las Vegas Strip live cam",
+  "match": [
+   "las vegas"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Grand Canyon",
+  "locality": "Grand Canyon",
+  "country": "US",
+  "lat": 36.0544,
+  "lon": -112.1401,
+  "q": "Grand Canyon live cam",
+  "match": [
+   "grand canyon"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Yellowstone",
+  "locality": "Yellowstone",
+  "country": "US",
+  "lat": 44.4605,
+  "lon": -110.8281,
+  "q": "Old Faithful live cam",
+  "match": [
+   "yellowstone",
+   "old faithful"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Banff",
+  "locality": "Banff",
+  "country": "CA",
+  "lat": 51.1784,
+  "lon": -115.5708,
+  "q": "Banff live cam",
+  "match": [
+   "banff",
+   "lake louise"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Vancouver",
+  "locality": "Vancouver",
+  "country": "CA",
+  "lat": 49.2827,
+  "lon": -123.1207,
+  "q": "Vancouver live cam",
+  "match": [
+   "vancouver"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Seattle",
+  "locality": "Seattle",
+  "country": "US",
+  "lat": 47.6062,
+  "lon": -122.3321,
+  "q": "Seattle live cam",
+  "match": [
+   "seattle"
+  ],
+  "ids": []
+ },
+ {
+  "place": "San Francisco",
+  "locality": "San Francisco",
+  "country": "US",
+  "lat": 37.8199,
+  "lon": -122.4783,
+  "q": "San Francisco Golden Gate live cam",
+  "match": [
+   "san francisco",
+   "golden gate"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Los Angeles",
+  "locality": "Los Angeles",
+  "country": "US",
+  "lat": 34.01,
+  "lon": -118.496,
+  "q": "Santa Monica live cam",
+  "match": [
+   "santa monica",
+   "venice beach",
+   "los angeles",
+   "hollywood sign"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Katmai",
+  "locality": "Brooks Falls",
+  "country": "US",
+  "lat": 58.555,
+  "lon": -155.777,
+  "q": "Brooks Falls bear cam",
+  "match": [
+   "brooks falls",
+   "katmai",
+   "bear"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Anchorage",
+  "locality": "Anchorage",
+  "country": "US",
+  "lat": 61.2181,
+  "lon": -149.9003,
+  "q": "Anchorage live cam",
+  "match": [
+   "anchorage",
+   "alaska"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Antarctica",
+  "locality": "Antarctic Peninsula",
+  "country": "AQ",
+  "lat": -64.8,
+  "lon": -62.9,
+  "q": "Antarctica live cam",
+  "match": [
+   "antarctic"
+  ],
+  "ids": []
+ },
+ {
+  "place": "Western Wall",
+  "locality": "Jerusalem",
+  "country": "IL",
+  "lat": 31.7767,
+  "lon": 35.2345,
+  "q": "Western Wall live cam",
+  "match": [
+   "western wall",
+   "kotel"
+  ],
+  "ids": [
+   "LMHUcDktP-w"
+  ]
+ }
+]

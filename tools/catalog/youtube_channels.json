@@ -1,0 +1,3229 @@
+{
+ "_doc": "YouTube channels that keep 24/7 webcams live. Each live video whose title contains a 'match' (case-insensitive, first rule wins) becomes a cam at that rule's place; 'max' caps videos per rule (default 1); titles containing a 'skip' word and unmatched titles are ignored. 'pages' × 50 recent uploads are scanned (1 quota unit per page + 1 per 50 ids, no search quota).",
+ "channels": [
+  {
+   "channel": "EarthCam",
+   "id": "UC6qrG3W8SMK0jior2olka3g",
+   "pages": 8,
+   "skip": [
+    "hurricane",
+    "storm",
+    "trending"
+   ],
+   "cams": [
+    {
+     "match": [
+      "new orleans"
+     ],
+     "place": "Bourbon Street",
+     "locality": "New Orleans",
+     "country": "US",
+     "lat": 29.9584,
+     "lon": -90.0651,
+     "max": 2
+    },
+    {
+     "match": [
+      "tamariu"
+     ],
+     "place": "Tamariu",
+     "locality": "Palafrugell",
+     "country": "ES",
+     "lat": 41.9177,
+     "lon": 3.205
+    },
+    {
+     "match": [
+      "spirit lake"
+     ],
+     "place": "Spirit Lake",
+     "locality": "Spirit Lake",
+     "country": "US",
+     "lat": 43.4222,
+     "lon": -95.1022
+    },
+    {
+     "match": [
+      "giraffe"
+     ],
+     "place": "Greenville Zoo giraffes",
+     "locality": "Greenville",
+     "country": "US",
+     "lat": 34.8443,
+     "lon": -82.3871
+    },
+    {
+     "match": [
+      "cayman"
+     ],
+     "place": "Seven Mile Beach",
+     "locality": "Grand Cayman",
+     "country": "KY",
+     "lat": 19.335,
+     "lon": -81.385
+    },
+    {
+     "match": [
+      "flight 93"
+     ],
+     "place": "Flight 93 Memorial",
+     "locality": "Shanksville",
+     "country": "US",
+     "lat": 40.056,
+     "lon": -78.899
+    },
+    {
+     "match": [
+      "lincoln harbor"
+     ],
+     "place": "Lincoln Harbor",
+     "locality": "Weehawken",
+     "country": "US",
+     "lat": 40.759,
+     "lon": -74.023
+    },
+    {
+     "match": [
+      "statue of liberty"
+     ],
+     "place": "Statue of Liberty",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.6892,
+     "lon": -74.0445
+    },
+    {
+     "match": [
+      "9/11 memorial"
+     ],
+     "place": "9/11 Memorial",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.7115,
+     "lon": -74.0134
+    },
+    {
+     "match": [
+      "midway airport"
+     ],
+     "place": "Midway Airport",
+     "locality": "Chicago",
+     "country": "US",
+     "lat": 41.7868,
+     "lon": -87.7522
+    },
+    {
+     "match": [
+      "anglins pier"
+     ],
+     "place": "Anglins Pier",
+     "locality": "Lauderdale-By-The-Sea",
+     "country": "US",
+     "lat": 26.189,
+     "lon": -80.095
+    },
+    {
+     "match": [
+      "brooklyn bridge"
+     ],
+     "place": "Brooklyn Bridge",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.7061,
+     "lon": -73.9969
+    },
+    {
+     "match": [
+      "abbey road"
+     ],
+     "place": "Abbey Road Crossing",
+     "locality": "London",
+     "country": "GB",
+     "lat": 51.532,
+     "lon": -0.1779
+    },
+    {
+     "match": [
+      "madison, indiana"
+     ],
+     "place": "Madison",
+     "locality": "Madison",
+     "country": "US",
+     "lat": 38.7359,
+     "lon": -85.3799
+    },
+    {
+     "match": [
+      "seaside heights"
+     ],
+     "place": "Seaside Heights",
+     "locality": "Seaside Heights",
+     "country": "US",
+     "lat": 39.9443,
+     "lon": -74.0729
+    },
+    {
+     "match": [
+      "mallorca"
+     ],
+     "place": "Mallorca",
+     "locality": "Mallorca",
+     "country": "ES",
+     "lat": 39.5696,
+     "lon": 2.6502
+    },
+    {
+     "match": [
+      "pigeon river"
+     ],
+     "place": "Pigeon River",
+     "locality": "Hartford",
+     "country": "US",
+     "lat": 35.8231,
+     "lon": -83.146
+    },
+    {
+     "match": [
+      "buffalo monument"
+     ],
+     "place": "World's Largest Buffalo",
+     "locality": "Jamestown",
+     "country": "US",
+     "lat": 46.905,
+     "lon": -98.689
+    },
+    {
+     "match": [
+      "times square"
+     ],
+     "place": "Times Square",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.758,
+     "lon": -73.9855
+    },
+    {
+     "match": [
+      "gaylord"
+     ],
+     "place": "Snowman Cam",
+     "locality": "Gaylord",
+     "country": "US",
+     "lat": 45.0275,
+     "lon": -84.6748
+    },
+    {
+     "match": [
+      "liberty bell"
+     ],
+     "place": "Independence Hall",
+     "locality": "Philadelphia",
+     "country": "US",
+     "lat": 39.9496,
+     "lon": -75.1503
+    },
+    {
+     "match": [
+      "philadelphia, pa"
+     ],
+     "place": "Philadelphia",
+     "locality": "Philadelphia",
+     "country": "US",
+     "lat": 39.9526,
+     "lon": -75.1652
+    },
+    {
+     "match": [
+      "council bluffs"
+     ],
+     "place": "Council Bluffs",
+     "locality": "Council Bluffs",
+     "country": "US",
+     "lat": 41.2619,
+     "lon": -95.8608
+    },
+    {
+     "match": [
+      "sanibel"
+     ],
+     "place": "Sanibel Island",
+     "locality": "Sanibel",
+     "country": "US",
+     "lat": 26.4434,
+     "lon": -82.1115
+    },
+    {
+     "match": [
+      "world trade center"
+     ],
+     "place": "World Trade Center",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.7127,
+     "lon": -74.0134
+    },
+    {
+     "match": [
+      "washington monument"
+     ],
+     "place": "Washington Monument",
+     "locality": "Washington",
+     "country": "US",
+     "lat": 38.8895,
+     "lon": -77.0353
+    },
+    {
+     "match": [
+      "roswell"
+     ],
+     "place": "Roswell",
+     "locality": "Roswell",
+     "country": "US",
+     "lat": 33.3943,
+     "lon": -104.523
+    },
+    {
+     "match": [
+      "ruidoso"
+     ],
+     "place": "Ruidoso",
+     "locality": "Ruidoso",
+     "country": "US",
+     "lat": 33.3317,
+     "lon": -105.6731
+    },
+    {
+     "match": [
+      "milwaukee"
+     ],
+     "place": "Milwaukee",
+     "locality": "Milwaukee",
+     "country": "US",
+     "lat": 43.0389,
+     "lon": -87.9065
+    },
+    {
+     "match": [
+      "skydeck"
+     ],
+     "place": "Skydeck",
+     "locality": "Chicago",
+     "country": "US",
+     "lat": 41.8789,
+     "lon": -87.6359
+    },
+    {
+     "match": [
+      "terminal tower"
+     ],
+     "place": "Terminal Tower",
+     "locality": "Cleveland",
+     "country": "US",
+     "lat": 41.4986,
+     "lon": -81.6937
+    },
+    {
+     "match": [
+      "coney island"
+     ],
+     "place": "Coney Island",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.5749,
+     "lon": -73.9859
+    },
+    {
+     "match": [
+      "niagara falls"
+     ],
+     "place": "Niagara Falls",
+     "locality": "Niagara Falls",
+     "country": "US",
+     "lat": 43.0896,
+     "lon": -79.0849
+    },
+    {
+     "match": [
+      "sitka"
+     ],
+     "place": "Sitka",
+     "locality": "Sitka",
+     "country": "US",
+     "lat": 57.0531,
+     "lon": -135.33
+    },
+    {
+     "match": [
+      "allegiant stadium"
+     ],
+     "place": "Allegiant Stadium",
+     "locality": "Las Vegas",
+     "country": "US",
+     "lat": 36.0909,
+     "lon": -115.1833
+    },
+    {
+     "match": [
+      "scrub island"
+     ],
+     "place": "Scrub Island",
+     "locality": "Scrub Island",
+     "country": "VG",
+     "lat": 18.4677,
+     "lon": -64.5229
+    },
+    {
+     "match": [
+      "bellagio"
+     ],
+     "place": "Bellagio Conservatory",
+     "locality": "Las Vegas",
+     "country": "US",
+     "lat": 36.1126,
+     "lon": -115.1767
+    },
+    {
+     "match": [
+      "kansas city cam"
+     ],
+     "place": "Kansas City",
+     "locality": "Kansas City",
+     "country": "US",
+     "lat": 39.0997,
+     "lon": -94.5786
+    },
+    {
+     "match": [
+      "one vanderbilt"
+     ],
+     "place": "SUMMIT One Vanderbilt",
+     "locality": "New York",
+     "country": "US",
+     "lat": 40.7531,
+     "lon": -73.9787
+    },
+    {
+     "match": [
+      "scottsville"
+     ],
+     "place": "Scottsville Main Street",
+     "locality": "Scottsville",
+     "country": "US",
+     "lat": 36.7534,
+     "lon": -86.1905
+    },
+    {
+     "match": [
+      "western wall"
+     ],
+     "place": "Western Wall",
+     "locality": "Jerusalem",
+     "country": "IL",
+     "lat": 31.7767,
+     "lon": 35.2345
+    },
+    {
+     "match": [
+      "dublin, ireland"
+     ],
+     "place": "Dublin",
+     "locality": "Dublin",
+     "country": "IE",
+     "lat": 53.3498,
+     "lon": -6.2603
+    }
+   ]
+  },
+  {
+   "channel": "Virtual Railfan",
+   "id": "UCOIkT9bq-1N2BvrsBjhNlag",
+   "pages": 8,
+   "skip": [
+    "model railroad"
+   ],
+   "cams": [
+    {
+     "match": [
+      "greeley"
+     ],
+     "place": "Greeley rail cam",
+     "locality": "Greeley",
+     "country": "US",
+     "lat": 40.4233,
+     "lon": -104.7091
+    },
+    {
+     "match": [
+      "ashland, virginia"
+     ],
+     "place": "Ashland rail cam",
+     "locality": "Ashland",
+     "country": "US",
+     "lat": 37.759,
+     "lon": -77.4797
+    },
+    {
+     "match": [
+      "spokane"
+     ],
+     "place": "Spokane rail cam",
+     "locality": "Spokane",
+     "country": "US",
+     "lat": 47.6588,
+     "lon": -117.426
+    },
+    {
+     "match": [
+      "plant city"
+     ],
+     "place": "Plant City rail cam",
+     "locality": "Plant City",
+     "country": "US",
+     "lat": 28.0186,
+     "lon": -82.1146
+    },
+    {
+     "match": [
+      "folkston"
+     ],
+     "place": "Folkston rail cam",
+     "locality": "Folkston",
+     "country": "US",
+     "lat": 30.831,
+     "lon": -82.011
+    },
+    {
+     "match": [
+      "saint louis"
+     ],
+     "place": "Saint Louis rail cam",
+     "locality": "Saint Louis",
+     "country": "US",
+     "lat": 38.627,
+     "lon": -90.1994
+    },
+    {
+     "match": [
+      "cresson"
+     ],
+     "place": "Cresson rail cam",
+     "locality": "Cresson",
+     "country": "US",
+     "lat": 40.4598,
+     "lon": -78.5917
+    },
+    {
+     "match": [
+      "salt lake city"
+     ],
+     "place": "Salt Lake City rail cam",
+     "locality": "Salt Lake City",
+     "country": "US",
+     "lat": 40.7608,
+     "lon": -111.891
+    },
+    {
+     "match": [
+      "cheyenne"
+     ],
+     "place": "Cheyenne rail cam",
+     "locality": "Cheyenne",
+     "country": "US",
+     "lat": 41.14,
+     "lon": -104.8202
+    },
+    {
+     "match": [
+      "quanah"
+     ],
+     "place": "Quanah rail cam",
+     "locality": "Quanah",
+     "country": "US",
+     "lat": 34.2973,
+     "lon": -99.7404
+    },
+    {
+     "match": [
+      "jesup"
+     ],
+     "place": "Jesup rail cam",
+     "locality": "Jesup",
+     "country": "US",
+     "lat": 31.6074,
+     "lon": -81.8854
+    },
+    {
+     "match": [
+      "deshler"
+     ],
+     "place": "Deshler rail cam",
+     "locality": "Deshler",
+     "country": "US",
+     "lat": 41.2081,
+     "lon": -83.8994
+    },
+    {
+     "match": [
+      "la grange, kentucky"
+     ],
+     "place": "La Grange rail cam",
+     "locality": "La Grange",
+     "country": "US",
+     "lat": 38.4076,
+     "lon": -85.3788
+    },
+    {
+     "match": [
+      "cohutta"
+     ],
+     "place": "Cohutta rail cam",
+     "locality": "Cohutta",
+     "country": "US",
+     "lat": 34.9615,
+     "lon": -84.9505
+    },
+    {
+     "match": [
+      "cordele"
+     ],
+     "place": "Cordele rail cam",
+     "locality": "Cordele",
+     "country": "US",
+     "lat": 31.9635,
+     "lon": -83.7824
+    },
+    {
+     "match": [
+      "tucson"
+     ],
+     "place": "Tucson rail cam",
+     "locality": "Tucson",
+     "country": "US",
+     "lat": 32.2226,
+     "lon": -110.9747
+    },
+    {
+     "match": [
+      "cumberland, maryland"
+     ],
+     "place": "Cumberland rail cam",
+     "locality": "Cumberland",
+     "country": "US",
+     "lat": 39.6529,
+     "lon": -78.7625
+    },
+    {
+     "match": [
+      "austell"
+     ],
+     "place": "Austell rail cam",
+     "locality": "Austell",
+     "country": "US",
+     "lat": 33.8126,
+     "lon": -84.6344
+    },
+    {
+     "match": [
+      "kansas city, missouri"
+     ],
+     "place": "Kansas City rail cam",
+     "locality": "Kansas City",
+     "country": "US",
+     "lat": 39.0997,
+     "lon": -94.5786
+    },
+    {
+     "match": [
+      "decatur, alabama"
+     ],
+     "place": "Decatur rail cam",
+     "locality": "Decatur",
+     "country": "US",
+     "lat": 34.6059,
+     "lon": -86.9833
+    },
+    {
+     "match": [
+      "spartanburg"
+     ],
+     "place": "Spartanburg rail cam",
+     "locality": "Spartanburg",
+     "country": "US",
+     "lat": 34.9496,
+     "lon": -81.932
+    },
+    {
+     "match": [
+      "strasburg"
+     ],
+     "place": "Strasburg rail cam",
+     "locality": "Strasburg",
+     "country": "US",
+     "lat": 39.9832,
+     "lon": -76.1841
+    },
+    {
+     "match": [
+      "muncie"
+     ],
+     "place": "Muncie rail cam",
+     "locality": "Muncie",
+     "country": "US",
+     "lat": 40.1934,
+     "lon": -85.3864
+    },
+    {
+     "match": [
+      "laramie"
+     ],
+     "place": "Laramie rail cam",
+     "locality": "Laramie",
+     "country": "US",
+     "lat": 41.3114,
+     "lon": -105.5911
+    },
+    {
+     "match": [
+      "rockwood"
+     ],
+     "place": "Rockwood rail cam",
+     "locality": "Rockwood",
+     "country": "US",
+     "lat": 35.8656,
+     "lon": -84.6849
+    },
+    {
+     "match": [
+      "cocoa, florida"
+     ],
+     "place": "Cocoa rail cam",
+     "locality": "Cocoa",
+     "country": "US",
+     "lat": 28.3861,
+     "lon": -80.742
+    },
+    {
+     "match": [
+      "anchorage"
+     ],
+     "place": "Anchorage rail cam",
+     "locality": "Anchorage",
+     "country": "US",
+     "lat": 61.2181,
+     "lon": -149.9003
+    },
+    {
+     "match": [
+      "sweetwater"
+     ],
+     "place": "Sweetwater rail cam",
+     "locality": "Sweetwater",
+     "country": "US",
+     "lat": 35.6015,
+     "lon": -84.4613
+    },
+    {
+     "match": [
+      "jonesborough"
+     ],
+     "place": "Jonesborough rail cam",
+     "locality": "Jonesborough",
+     "country": "US",
+     "lat": 36.2943,
+     "lon": -82.4735
+    },
+    {
+     "match": [
+      "thomasville"
+     ],
+     "place": "Thomasville rail cam",
+     "locality": "Thomasville",
+     "country": "US",
+     "lat": 35.8826,
+     "lon": -80.082
+    },
+    {
+     "match": [
+      "amherst, ohio"
+     ],
+     "place": "Amherst rail cam",
+     "locality": "Amherst",
+     "country": "US",
+     "lat": 41.3978,
+     "lon": -82.2224
+    },
+    {
+     "match": [
+      "battle creek"
+     ],
+     "place": "Battle Creek rail cam",
+     "locality": "Battle Creek",
+     "country": "US",
+     "lat": 42.3212,
+     "lon": -85.1797
+    },
+    {
+     "match": [
+      "roanoke"
+     ],
+     "place": "Roanoke rail cam",
+     "locality": "Roanoke",
+     "country": "US",
+     "lat": 37.271,
+     "lon": -79.9414
+    },
+    {
+     "match": [
+      "rochelle"
+     ],
+     "place": "Rochelle rail cam",
+     "locality": "Rochelle",
+     "country": "US",
+     "lat": 41.9239,
+     "lon": -89.0687
+    },
+    {
+     "match": [
+      "chehalis"
+     ],
+     "place": "Chehalis rail cam",
+     "locality": "Chehalis",
+     "country": "US",
+     "lat": 46.6621,
+     "lon": -122.964
+    },
+    {
+     "match": [
+      "fort worth"
+     ],
+     "place": "Tower 55, Fort Worth rail cam",
+     "locality": "Fort Worth",
+     "country": "US",
+     "lat": 32.7555,
+     "lon": -97.3308
+    },
+    {
+     "match": [
+      "fairport"
+     ],
+     "place": "Fairport rail cam",
+     "locality": "Fairport",
+     "country": "US",
+     "lat": 43.0987,
+     "lon": -77.4419
+    },
+    {
+     "match": [
+      "paradise, pennsylvania"
+     ],
+     "place": "Paradise rail cam",
+     "locality": "Paradise",
+     "country": "US",
+     "lat": 40.009,
+     "lon": -76.1263
+    },
+    {
+     "match": [
+      "fort madison"
+     ],
+     "place": "Fort Madison rail cam",
+     "locality": "Fort Madison",
+     "country": "US",
+     "lat": 40.6298,
+     "lon": -91.3149
+    },
+    {
+     "match": [
+      "lincoln, nebraska"
+     ],
+     "place": "Lincoln rail cam",
+     "locality": "Lincoln",
+     "country": "US",
+     "lat": 40.8136,
+     "lon": -96.7026
+    },
+    {
+     "match": [
+      "st. paul"
+     ],
+     "place": "Saint Paul rail cam",
+     "locality": "Saint Paul",
+     "country": "US",
+     "lat": 44.9537,
+     "lon": -93.09
+    },
+    {
+     "match": [
+      "chattanooga"
+     ],
+     "place": "Chattanooga rail cam",
+     "locality": "Chattanooga",
+     "country": "US",
+     "lat": 35.0456,
+     "lon": -85.3097
+    },
+    {
+     "match": [
+      "lafayette, indiana"
+     ],
+     "place": "Lafayette rail cam",
+     "locality": "Lafayette",
+     "country": "US",
+     "lat": 40.4167,
+     "lon": -86.8753
+    },
+    {
+     "match": [
+      "glendale, ohio"
+     ],
+     "place": "Glendale rail cam",
+     "locality": "Glendale",
+     "country": "US",
+     "lat": 39.2706,
+     "lon": -84.4594
+    },
+    {
+     "match": [
+      "chesterton"
+     ],
+     "place": "Chesterton rail cam",
+     "locality": "Chesterton",
+     "country": "US",
+     "lat": 41.6106,
+     "lon": -87.0642
+    },
+    {
+     "match": [
+      "parkville"
+     ],
+     "place": "Parkville rail cam",
+     "locality": "Parkville",
+     "country": "US",
+     "lat": 39.1911,
+     "lon": -94.6819
+    },
+    {
+     "match": [
+      "johnstown"
+     ],
+     "place": "Johnstown rail cam",
+     "locality": "Johnstown",
+     "country": "US",
+     "lat": 40.3267,
+     "lon": -78.922
+    }
+   ]
+  },
+  {
+   "channel": "I Love You Venice",
+   "id": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "pages": 3,
+   "skip": [
+    "piano",
+    "rolling",
+    "around the world"
+   ],
+   "cams": [
+    {
+     "match": [
+      "rialto"
+     ],
+     "place": "Rialto Bridge",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.438,
+     "lon": 12.3359
+    },
+    {
+     "match": [
+      "ca' angeli"
+     ],
+     "place": "Grand Canal, Ca' Angeli",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4371,
+     "lon": 12.329
+    },
+    {
+     "match": [
+      "fenice"
+     ],
+     "place": "Teatro La Fenice",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4337,
+     "lon": 12.3336
+    },
+    {
+     "match": [
+      "san marco basin",
+      "st. mark's basin",
+      "bacino di san marco"
+     ],
+     "place": "St Mark's Basin",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4325,
+     "lon": 12.342,
+     "max": 2
+    },
+    {
+     "match": [
+      "scalzi"
+     ],
+     "place": "Scalzi Bridge",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4413,
+     "lon": 12.322
+    },
+    {
+     "match": [
+      "jesolo"
+     ],
+     "place": "Jesolo Lido",
+     "locality": "Jesolo",
+     "country": "IT",
+     "lat": 45.495,
+     "lon": 12.64
+    },
+    {
+     "match": [
+      "chioggia",
+      "sottomarina"
+     ],
+     "place": "Sottomarina",
+     "locality": "Chioggia",
+     "country": "IT",
+     "lat": 45.205,
+     "lon": 12.3,
+     "max": 2
+    },
+    {
+     "match": [
+      "laguna nord",
+      "laguna of venice"
+     ],
+     "place": "Venice Lagoon",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.466,
+     "lon": 12.36
+    },
+    {
+     "match": [
+      "santa maria formosa"
+     ],
+     "place": "Campo Santa Maria Formosa",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4374,
+     "lon": 12.3415
+    },
+    {
+     "match": [
+      "san cassiano",
+      "povoledo"
+     ],
+     "place": "Grand Canal",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4398,
+     "lon": 12.333,
+     "max": 2
+    },
+    {
+     "match": [
+      "dorsoduro",
+      "pausania"
+     ],
+     "place": "Dorsoduro",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.431,
+     "lon": 12.327,
+     "max": 2
+    },
+    {
+     "match": [
+      "guglie"
+     ],
+     "place": "Ponte delle Guglie",
+     "locality": "Venice",
+     "country": "IT",
+     "lat": 45.4436,
+     "lon": 12.3256
+    }
+   ]
+  },
+  {
+   "channel": "See Jackson Hole",
+   "id": "UCEpDjqeFIGTqHwk-uULx72Q",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "grand targhee"
+     ],
+     "place": "Grand Targhee summit",
+     "locality": "Alta",
+     "country": "US",
+     "lat": 43.7898,
+     "lon": -110.9581
+    },
+    {
+     "match": [
+      "grand teton"
+     ],
+     "place": "Grand Teton",
+     "locality": "Jackson",
+     "country": "US",
+     "lat": 43.741,
+     "lon": -110.8024
+    },
+    {
+     "match": [
+      "snake river brewing"
+     ],
+     "place": "Snake River Brewing",
+     "locality": "Jackson",
+     "country": "US",
+     "lat": 43.4746,
+     "lon": -110.764
+    },
+    {
+     "match": [
+      "rodeo"
+     ],
+     "place": "Jackson Hole Rodeo",
+     "locality": "Jackson",
+     "country": "US",
+     "lat": 43.473,
+     "lon": -110.756
+    },
+    {
+     "match": [
+      "lost creek ranch"
+     ],
+     "place": "Lost Creek Ranch",
+     "locality": "Moose",
+     "country": "US",
+     "lat": 43.68,
+     "lon": -110.62
+    }
+   ]
+  },
+  {
+   "channel": "NamibiaCam",
+   "id": "UC9X6gGKDv2yhMoofoeS7-Gg",
+   "pages": 8,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "kalahari"
+     ],
+     "place": "Kalahari Desert",
+     "locality": "Kalahari",
+     "country": "NA",
+     "lat": -24.35,
+     "lon": 18.75
+    },
+    {
+     "match": [
+      "okaukuejo"
+     ],
+     "place": "Okaukuejo waterhole, Etosha",
+     "locality": "Etosha",
+     "country": "NA",
+     "lat": -19.1777,
+     "lon": 15.9216
+    },
+    {
+     "match": [
+      "namib desert"
+     ],
+     "place": "Namib Desert waterhole",
+     "locality": "Namib Desert",
+     "country": "NA",
+     "lat": -24.74,
+     "lon": 15.98
+    }
+   ]
+  },
+  {
+   "channel": "BIG JET TV",
+   "id": "UCkQef3Fidr7tm3gNuXgGKPw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "heathrow"
+     ],
+     "place": "Heathrow Airport",
+     "locality": "London",
+     "country": "GB",
+     "lat": 51.47,
+     "lon": -0.4543
+    }
+   ]
+  },
+  {
+   "channel": "explore.org — Northern Lights & Nature",
+   "id": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "mission mountain"
+     ],
+     "place": "Mission Mountains",
+     "locality": "St. Ignatius",
+     "country": "US",
+     "lat": 47.32,
+     "lon": -113.95
+    },
+    {
+     "match": [
+      "dumpling mountain"
+     ],
+     "place": "Dumpling Mountain, Katmai",
+     "locality": "Katmai",
+     "country": "US",
+     "lat": 58.564,
+     "lon": -155.77
+    },
+    {
+     "match": [
+      "lisbon falls"
+     ],
+     "place": "Lisbon Falls",
+     "locality": "Lisbon Falls",
+     "country": "US",
+     "lat": 44.006,
+     "lon": -70.058
+    },
+    {
+     "match": [
+      "mendenhall"
+     ],
+     "place": "Mendenhall Glacier",
+     "locality": "Juneau",
+     "country": "US",
+     "lat": 58.418,
+     "lon": -134.545
+    },
+    {
+     "match": [
+      "fairbanks"
+     ],
+     "place": "Fairbanks aurora",
+     "locality": "Fairbanks",
+     "country": "US",
+     "lat": 64.8378,
+     "lon": -147.7164
+    },
+    {
+     "match": [
+      "mount diablo"
+     ],
+     "place": "Mount Diablo",
+     "locality": "Walnut Creek",
+     "country": "US",
+     "lat": 37.8816,
+     "lon": -121.9142
+    },
+    {
+     "match": [
+      "northern lights powered"
+     ],
+     "place": "Northern lights, Churchill",
+     "locality": "Churchill",
+     "country": "CA",
+     "lat": 58.7684,
+     "lon": -94.165
+    }
+   ]
+  },
+  {
+   "channel": "explore.org — Africa",
+   "id": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "main crossing",
+      "fig tree crossing"
+     ],
+     "place": "Mara River crossing",
+     "locality": "Masai Mara",
+     "country": "KE",
+     "lat": -1.406,
+     "lon": 35.01,
+     "max": 2
+    },
+    {
+     "match": [
+      "kalahari salt pan"
+     ],
+     "place": "Kalahari salt pan",
+     "locality": "Makgadikgadi",
+     "country": "BW",
+     "lat": -20.95,
+     "lon": 24.95
+    },
+    {
+     "match": [
+      "boteti"
+     ],
+     "place": "Boteti River",
+     "locality": "Makgadikgadi",
+     "country": "BW",
+     "lat": -20.2,
+     "lon": 24.55
+    }
+   ]
+  },
+  {
+   "channel": "USGS",
+   "id": "UCeXH8GZyV3sVqAr45AvupOA",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "kīlauea",
+      "kilauea"
+     ],
+     "place": "Kīlauea, Halemaʻumaʻu crater",
+     "locality": "Hawaiʻi Volcanoes",
+     "country": "US",
+     "lat": 19.4069,
+     "lon": -155.2834,
+     "max": 2
+    }
+   ]
+  },
+  {
+   "channel": "Kyoto City Tourism",
+   "id": "UCLpgVZwl9CaXierI3oq08mQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "saga arashiyama, kyoto"
+     ],
+     "place": "Togetsukyō Bridge, Arashiyama",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.0136,
+     "lon": 135.6778
+    },
+    {
+     "match": [
+      "bus terminal"
+     ],
+     "place": "Kyoto Station",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 34.9858,
+     "lon": 135.7588
+    },
+    {
+     "match": [
+      "fushimi inari"
+     ],
+     "place": "Fushimi Inari",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 34.9671,
+     "lon": 135.7727
+    },
+    {
+     "match": [
+      "philosopher"
+     ],
+     "place": "Philosopher's Path",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.027,
+     "lon": 135.7948
+    },
+    {
+     "match": [
+      "kitano tenmangu"
+     ],
+     "place": "Kitano Tenmangū",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.0312,
+     "lon": 135.7351
+    },
+    {
+     "match": [
+      "bamboo forest"
+     ],
+     "place": "Arashiyama bamboo grove",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.017,
+     "lon": 135.6719
+    },
+    {
+     "match": [
+      "hanamikoji"
+     ],
+     "place": "Hanamikōji, Gion",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.0025,
+     "lon": 135.7752
+    },
+    {
+     "match": [
+      "nishiki market"
+     ],
+     "place": "Nishiki Market",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.005,
+     "lon": 135.7649
+    },
+    {
+     "match": [
+      "nene no michi"
+     ],
+     "place": "Nene-no-michi",
+     "locality": "Kyoto",
+     "country": "JP",
+     "lat": 35.0,
+     "lon": 135.779
+    }
+   ]
+  },
+  {
+   "channel": "MBS NEWS",
+   "id": "UCkKJhKO73xF1pK5h9R82ZGQ",
+   "pages": 8,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "dotonbori"
+     ],
+     "place": "Dōtonbori",
+     "locality": "Osaka",
+     "country": "JP",
+     "lat": 34.6687,
+     "lon": 135.5013
+    },
+    {
+     "match": [
+      "itami"
+     ],
+     "place": "Itami Airport",
+     "locality": "Osaka",
+     "country": "JP",
+     "lat": 34.7855,
+     "lon": 135.4382
+    }
+   ]
+  },
+  {
+   "channel": "UTY TV Yamanashi",
+   "id": "UCk2oG--VyYST4SYyQkeadjA",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "パノラマロープウェイ",
+      "mt.fuji live cam"
+     ],
+     "place": "Mt Fuji from Lake Kawaguchi",
+     "locality": "Fujikawaguchiko",
+     "country": "JP",
+     "lat": 35.504,
+     "lon": 138.767
+    },
+    {
+     "match": [
+      "kawaguchiko station"
+     ],
+     "place": "Kawaguchiko Station",
+     "locality": "Fujikawaguchiko",
+     "country": "JP",
+     "lat": 35.4983,
+     "lon": 138.769
+    },
+    {
+     "match": [
+      "kofu"
+     ],
+     "place": "Kōfu basin",
+     "locality": "Kōfu",
+     "country": "JP",
+     "lat": 35.662,
+     "lon": 138.568
+    }
+   ]
+  },
+  {
+   "channel": "Fumotoppara",
+   "id": "UCYcexkyqYKH9oWzprRGsW0A",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "fumotoppara"
+     ],
+     "place": "Mt Fuji from Fumotoppara",
+     "locality": "Fujinomiya",
+     "country": "JP",
+     "lat": 35.414,
+     "lon": 138.564
+    }
+   ]
+  },
+  {
+   "channel": "Tanukiya LIVE",
+   "id": "UCRZplV8vE67bgCI6_3sm3mQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "tanukikoji"
+     ],
+     "place": "Tanukikōji",
+     "locality": "Sapporo",
+     "country": "JP",
+     "lat": 43.0576,
+     "lon": 141.353
+    }
+   ]
+  },
+  {
+   "channel": "Han River Live 365",
+   "id": "UC_WJaEpQOURh6dNEXqA8FgA",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "namsan tower"
+     ],
+     "place": "Namsan Tower",
+     "locality": "Seoul",
+     "country": "KR",
+     "lat": 37.5512,
+     "lon": 126.9882
+    },
+    {
+     "match": [
+      "banpo bridge"
+     ],
+     "place": "Banpo Bridge",
+     "locality": "Seoul",
+     "country": "KR",
+     "lat": 37.5106,
+     "lon": 126.996
+    },
+    {
+     "match": [
+      "",
+      " han river ",
+      ""
+     ],
+     "place": "Han River",
+     "locality": "Seoul",
+     "country": "KR",
+     "lat": 37.517,
+     "lon": 126.98
+    }
+   ]
+  },
+  {
+   "channel": "Soulscape Seoul",
+   "id": "UCjnANppJuw3NsyL25yU2AeQ",
+   "pages": 2,
+   "skip": [
+    "lo-fi",
+    "music"
+   ],
+   "cams": [
+    {
+     "match": [
+      "노들섬 기차뷰"
+     ],
+     "place": "Han River railway bridge",
+     "locality": "Seoul",
+     "country": "KR",
+     "lat": 37.5175,
+     "lon": 126.958
+    }
+   ]
+  },
+  {
+   "channel": "The Real Samui Webcam",
+   "id": "UCmYyJaUxYiF5IbLx-0jFXHQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "sukhumvit"
+     ],
+     "place": "Sukhumvit Road",
+     "locality": "Bangkok",
+     "country": "TH",
+     "lat": 13.74,
+     "lon": 100.556,
+     "max": 2
+    },
+    {
+     "match": [
+      "big buddha"
+     ],
+     "place": "Big Buddha",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.57,
+     "lon": 100.06
+    },
+    {
+     "match": [
+      "lamai"
+     ],
+     "place": "Lamai Beach",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.47,
+     "lon": 100.048,
+     "max": 3
+    },
+    {
+     "match": [
+      "bophut"
+     ],
+     "place": "Fisherman's Village, Bophut",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.56,
+     "lon": 100.027,
+     "max": 2
+    },
+    {
+     "match": [
+      "chaweng"
+     ],
+     "place": "Chaweng",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.53,
+     "lon": 100.061,
+     "max": 3
+    }
+   ]
+  },
+  {
+   "channel": "Pablo Stockto",
+   "id": "UCUoOsS2eeqnFSUvA3PpSOlQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "beach haven"
+     ],
+     "place": "Beach Haven",
+     "locality": "Auckland",
+     "country": "NZ",
+     "lat": -36.79,
+     "lon": 174.69
+    }
+   ]
+  },
+  {
+   "channel": "Ozolio Live",
+   "id": "UC5lNakfSdpqXCW214H5sBgQ",
+   "pages": 2,
+   "skip": [
+    "penguin"
+   ],
+   "cams": [
+    {
+     "match": [
+      "macarthur causeway"
+     ],
+     "place": "Miami skyline",
+     "locality": "Miami",
+     "country": "US",
+     "lat": 25.785,
+     "lon": -80.17
+    },
+    {
+     "match": [
+      "napili"
+     ],
+     "place": "Napili Bay",
+     "locality": "Maui",
+     "country": "US",
+     "lat": 20.998,
+     "lon": -156.667
+    },
+    {
+     "match": [
+      "kea lani"
+     ],
+     "place": "Wailea",
+     "locality": "Maui",
+     "country": "US",
+     "lat": 20.673,
+     "lon": -156.443
+    },
+    {
+     "match": [
+      "miami international airport"
+     ],
+     "place": "Miami International Airport",
+     "locality": "Miami",
+     "country": "US",
+     "lat": 25.7959,
+     "lon": -80.287
+    },
+    {
+     "match": [
+      "kahala"
+     ],
+     "place": "Kahala",
+     "locality": "Honolulu",
+     "country": "US",
+     "lat": 21.271,
+     "lon": -157.774
+    },
+    {
+     "match": [
+      "waikiki beach marriott"
+     ],
+     "place": "Waikiki Beach",
+     "locality": "Honolulu",
+     "country": "US",
+     "lat": 21.275,
+     "lon": -157.824
+    },
+    {
+     "match": [
+      "sheraton maui"
+     ],
+     "place": "Kāʻanapali Beach",
+     "locality": "Maui",
+     "country": "US",
+     "lat": 20.925,
+     "lon": -156.695
+    },
+    {
+     "match": [
+      "wailea beach"
+     ],
+     "place": "Wailea Beach",
+     "locality": "Maui",
+     "country": "US",
+     "lat": 20.683,
+     "lon": -156.443
+    },
+    {
+     "match": [
+      "san juan"
+     ],
+     "place": "Isla Verde",
+     "locality": "San Juan",
+     "country": "PR",
+     "lat": 18.448,
+     "lon": -66.03
+    }
+   ]
+  },
+  {
+   "channel": "Ozolio Plus",
+   "id": "UCspnu6n44ydqafj6nFIw5hw",
+   "pages": 2,
+   "skip": [
+    "penguin",
+    "aquarium"
+   ],
+   "cams": [
+    {
+     "match": [
+      "biscayne bay"
+     ],
+     "place": "Biscayne Bay",
+     "locality": "Miami",
+     "country": "US",
+     "lat": 25.79,
+     "lon": -80.186
+    },
+    {
+     "match": [
+      "royal lahaina"
+     ],
+     "place": "Kāʻanapali, Royal Lahaina",
+     "locality": "Maui",
+     "country": "US",
+     "lat": 20.93,
+     "lon": -156.693
+    },
+    {
+     "match": [
+      "st ives"
+     ],
+     "place": "St Ives Harbour",
+     "locality": "St Ives",
+     "country": "GB",
+     "lat": 50.214,
+     "lon": -5.48
+    },
+    {
+     "match": [
+      "park shore waikiki"
+     ],
+     "place": "Waikiki, Diamond Head end",
+     "locality": "Honolulu",
+     "country": "US",
+     "lat": 21.271,
+     "lon": -157.822
+    },
+    {
+     "match": [
+      "sheraton kauai"
+     ],
+     "place": "Poʻipū Beach",
+     "locality": "Kauaʻi",
+     "country": "US",
+     "lat": 21.874,
+     "lon": -159.458
+    },
+    {
+     "match": [
+      "lyme regis"
+     ],
+     "place": "Lyme Regis",
+     "locality": "Lyme Regis",
+     "country": "GB",
+     "lat": 50.725,
+     "lon": -2.936
+    },
+    {
+     "match": [
+      "myrtle beach"
+     ],
+     "place": "Myrtle Beach",
+     "locality": "Myrtle Beach",
+     "country": "US",
+     "lat": 33.689,
+     "lon": -78.8867
+    }
+   ]
+  },
+  {
+   "channel": "Homes in Rio",
+   "id": "UChWGYkK0I8U83C0FxAxWy4w",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "copacabana"
+     ],
+     "place": "Copacabana",
+     "locality": "Rio de Janeiro",
+     "country": "BR",
+     "lat": -22.9711,
+     "lon": -43.1822,
+     "max": 2
+    }
+   ]
+  },
+  {
+   "channel": "Buenos Aires Panorama",
+   "id": "UC6UNAtHxhjnYlV_1FF-l4zA",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "obelisco"
+     ],
+     "place": "Obelisco",
+     "locality": "Buenos Aires",
+     "country": "AR",
+     "lat": -34.6037,
+     "lon": -58.3816
+    }
+   ]
+  },
+  {
+   "channel": "Webcams de México TV",
+   "id": "UCPOifgFqN0FuTrhc2Ja6n7w",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "acapulco"
+     ],
+     "place": "Acapulco bay",
+     "locality": "Acapulco",
+     "country": "MX",
+     "lat": 16.8531,
+     "lon": -99.8237
+    },
+    {
+     "match": [
+      "chapultepec"
+     ],
+     "place": "Chapultepec",
+     "locality": "Mexico City",
+     "country": "MX",
+     "lat": 19.4204,
+     "lon": -99.1819
+    },
+    {
+     "match": [
+      "punta cancún"
+     ],
+     "place": "Punta Cancún",
+     "locality": "Cancún",
+     "country": "MX",
+     "lat": 21.136,
+     "lon": -86.744
+    },
+    {
+     "match": [
+      "cadereyta"
+     ],
+     "place": "Cadereyta de Montes",
+     "locality": "Cadereyta",
+     "country": "MX",
+     "lat": 20.693,
+     "lon": -99.817
+    },
+    {
+     "match": [
+      "bacalar"
+     ],
+     "place": "Laguna de Bacalar",
+     "locality": "Bacalar",
+     "country": "MX",
+     "lat": 18.678,
+     "lon": -88.393
+    },
+    {
+     "match": [
+      "amealco"
+     ],
+     "place": "Amealco",
+     "locality": "Amealco",
+     "country": "MX",
+     "lat": 20.188,
+     "lon": -100.144
+    },
+    {
+     "match": [
+      "park royal beach"
+     ],
+     "place": "Cancún hotel zone",
+     "locality": "Cancún",
+     "country": "MX",
+     "lat": 21.06,
+     "lon": -86.78
+    }
+   ]
+  },
+  {
+   "channel": "webcamsdemexico",
+   "id": "UColBcWm6ybTbQnNuQS8JaKg",
+   "pages": 3,
+   "skip": [
+    "huracán",
+    "huracan",
+    "multicam"
+   ],
+   "cams": [
+    {
+     "match": [
+      "monumento a la revolución"
+     ],
+     "place": "Monumento a la Revolución",
+     "locality": "Mexico City",
+     "country": "MX",
+     "lat": 19.4361,
+     "lon": -99.1546
+    },
+    {
+     "match": [
+      "reforma"
+     ],
+     "place": "Paseo de la Reforma",
+     "locality": "Mexico City",
+     "country": "MX",
+     "lat": 19.427,
+     "lon": -99.1677,
+     "max": 2
+    },
+    {
+     "match": [
+      "zócalo"
+     ],
+     "place": "Zócalo",
+     "locality": "Mexico City",
+     "country": "MX",
+     "lat": 19.4326,
+     "lon": -99.1332
+    },
+    {
+     "match": [
+      "popocatépetl"
+     ],
+     "place": "Popocatépetl",
+     "locality": "Tlamacas",
+     "country": "MX",
+     "lat": 19.066,
+     "lon": -98.628
+    }
+   ]
+  },
+  {
+   "channel": "BLC Streams",
+   "id": "UC6RbL0ZAyA_rc__Acbqh2mw",
+   "pages": 2,
+   "skip": [
+    "rotator"
+   ],
+   "cams": [
+    {
+     "match": [
+      "port miami"
+     ],
+     "place": "PortMiami cruise terminals",
+     "locality": "Miami",
+     "country": "US",
+     "lat": 25.778,
+     "lon": -80.17
+    },
+    {
+     "match": [
+      "nokomis"
+     ],
+     "place": "Intracoastal Waterway, Nokomis",
+     "locality": "Venice, Florida",
+     "country": "US",
+     "lat": 27.115,
+     "lon": -82.465
+    },
+    {
+     "match": [
+      "marker hotel"
+     ],
+     "place": "Key West Harbor",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.561,
+     "lon": -81.804
+    },
+    {
+     "match": [
+      "cruise port key west"
+     ],
+     "place": "Key West cruise port",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.559,
+     "lon": -81.807
+    }
+   ]
+  },
+  {
+   "channel": "Party In Key West",
+   "id": "UC6LtdFfeq_8pnrnhiLgYOvw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "schooner wharf"
+     ],
+     "place": "Schooner Wharf",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.5612,
+     "lon": -81.8018
+    },
+    {
+     "match": [
+      "galleon"
+     ],
+     "place": "Galleon Marina",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.56,
+     "lon": -81.803
+    },
+    {
+     "match": [
+      "boyd's campground"
+     ],
+     "place": "Boyd's Campground",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.573,
+     "lon": -81.738
+    }
+   ]
+  },
+  {
+   "channel": "TheWalkingFrank",
+   "id": "UCpAcgvxttlboarOXKs8hvbw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "québec city",
+      "quebec city"
+     ],
+     "place": "Château Frontenac",
+     "locality": "Québec",
+     "country": "CA",
+     "lat": 46.8122,
+     "lon": -71.2046
+    }
+   ]
+  },
+  {
+   "channel": "Vancouver Port Live",
+   "id": "UCNOXlPIEg4nNvCqlInpKcXw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "vancouver"
+     ],
+     "place": "Vancouver harbour",
+     "locality": "Vancouver",
+     "country": "CA",
+     "lat": 49.289,
+     "lon": -123.111
+    }
+   ]
+  },
+  {
+   "channel": "Billyforce Entertainment",
+   "id": "UCr7GtOadmMI2KMfei9yElxQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "bc place"
+     ],
+     "place": "BC Place",
+     "locality": "Vancouver",
+     "country": "CA",
+     "lat": 49.2768,
+     "lon": -123.112
+    }
+   ]
+  },
+  {
+   "channel": "Vancouver Rowing Club",
+   "id": "UCPwmbS2kvFsXwrB_VLeMuBQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "rowing club"
+     ],
+     "place": "Coal Harbour",
+     "locality": "Vancouver",
+     "country": "CA",
+     "lat": 49.295,
+     "lon": -123.127
+    }
+   ]
+  },
+  {
+   "channel": "City of Coldwater MI",
+   "id": "UCv9D0xATZ18lnDzhWVEtnIA",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "4 corners",
+      "monroe st"
+     ],
+     "place": "Downtown Coldwater",
+     "locality": "Coldwater",
+     "country": "US",
+     "lat": 41.9403,
+     "lon": -85.0005
+    },
+    {
+     "match": [
+      "rotary park"
+     ],
+     "place": "Rotary Park",
+     "locality": "Coldwater",
+     "country": "US",
+     "lat": 41.943,
+     "lon": -84.993
+    }
+   ]
+  },
+  {
+   "channel": "WebcamSydney",
+   "id": "UCLav_kTu9PmAEChvGyrPbhQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "harbour"
+     ],
+     "place": "Sydney Harbour",
+     "locality": "Sydney",
+     "country": "AU",
+     "lat": -33.8568,
+     "lon": 151.2153
+    }
+   ]
+  },
+  {
+   "channel": "PTZtv",
+   "id": "UCG8-xn6zUbEqmqlnsvrD33Q",
+   "pages": 3,
+   "skip": [
+    "scenic cameras"
+   ],
+   "cams": [
+    {
+     "match": [
+      "morgan hill"
+     ],
+     "place": "Morgan Hill",
+     "locality": "Morgan Hill",
+     "country": "US",
+     "lat": 37.1305,
+     "lon": -121.6544
+    },
+    {
+     "match": [
+      "miami airport"
+     ],
+     "place": "Miami Airport runway 9/27",
+     "locality": "Miami",
+     "country": "US",
+     "lat": 25.7959,
+     "lon": -80.287
+    },
+    {
+     "match": [
+      "key west harbor"
+     ],
+     "place": "Key West Harbor",
+     "locality": "Key West",
+     "country": "US",
+     "lat": 24.561,
+     "lon": -81.805
+    },
+    {
+     "match": [
+      "fort lauderdale beach"
+     ],
+     "place": "Fort Lauderdale Beach",
+     "locality": "Fort Lauderdale",
+     "country": "US",
+     "lat": 26.122,
+     "lon": -80.103
+    }
+   ]
+  },
+  {
+   "channel": "Webcamtaxi",
+   "id": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "pages": 3,
+   "skip": [
+    "rolling",
+    "multi-cam"
+   ],
+   "cams": [
+    {
+     "match": [
+      "cruz da caldeira"
+     ],
+     "place": "Câmara de Lobos",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.65,
+     "lon": -16.977
+    },
+    {
+     "match": [
+      "porto webcam"
+     ],
+     "place": "Ribeira",
+     "locality": "Porto",
+     "country": "PT",
+     "lat": 41.14,
+     "lon": -8.613
+    },
+    {
+     "match": [
+      "machico"
+     ],
+     "place": "Machico",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.718,
+     "lon": -16.767
+    },
+    {
+     "match": [
+      "madalena do mar"
+     ],
+     "place": "Madalena do Mar",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.701,
+     "lon": -17.133
+    },
+    {
+     "match": [
+      "paul do mar"
+     ],
+     "place": "Paul do Mar",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.759,
+     "lon": -17.229
+    },
+    {
+     "match": [
+      "cr7 museum"
+     ],
+     "place": "Funchal harbour",
+     "locality": "Funchal",
+     "country": "PT",
+     "lat": 32.646,
+     "lon": -16.908
+    },
+    {
+     "match": [
+      "são roque"
+     ],
+     "place": "Funchal",
+     "locality": "Funchal",
+     "country": "PT",
+     "lat": 32.66,
+     "lon": -16.92
+    }
+   ]
+  },
+  {
+   "channel": "livespotting",
+   "id": "UCzLB2h38nyHSIaALzwtPvfg",
+   "pages": 6,
+   "skip": [
+    "spotlight"
+   ],
+   "cams": [
+    {
+     "match": [
+      "warnemünde"
+     ],
+     "place": "Warnemünde lighthouse",
+     "locality": "Rostock",
+     "country": "DE",
+     "lat": 54.182,
+     "lon": 12.085
+    },
+    {
+     "match": [
+      "cruise center altona"
+     ],
+     "place": "Hamburg harbour, Altona",
+     "locality": "Hamburg",
+     "country": "DE",
+     "lat": 53.544,
+     "lon": 9.933
+    },
+    {
+     "match": [
+      "michel"
+     ],
+     "place": "Hamburg harbour from the Michel",
+     "locality": "Hamburg",
+     "country": "DE",
+     "lat": 53.5482,
+     "lon": 9.979
+    },
+    {
+     "match": [
+      "brunsbüttel"
+     ],
+     "place": "Brunsbüttel locks, Kiel Canal",
+     "locality": "Brunsbüttel",
+     "country": "DE",
+     "lat": 53.89,
+     "lon": 9.145
+    },
+    {
+     "match": [
+      "kiel-holtenau"
+     ],
+     "place": "Holtenau locks, Kiel Canal",
+     "locality": "Kiel",
+     "country": "DE",
+     "lat": 54.37,
+     "lon": 10.145
+    },
+    {
+     "match": [
+      "borkum"
+     ],
+     "place": "Borkum",
+     "locality": "Borkum",
+     "country": "DE",
+     "lat": 53.59,
+     "lon": 6.665
+    }
+   ]
+  },
+  {
+   "channel": "Fluhalp Zermatt",
+   "id": "UCgbBnwUsg4ps-EEhQXSFaxw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "fluhalp"
+     ],
+     "place": "Matterhorn from Fluhalp",
+     "locality": "Zermatt",
+     "country": "CH",
+     "lat": 46.0145,
+     "lon": 7.8135
+    }
+   ]
+  },
+  {
+   "channel": "Finland Through the Seasons",
+   "id": "UCn29sQHD0APzY2qypBMA-MA",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "nikkilän"
+     ],
+     "place": "Nikkilä Manor",
+     "locality": "Sipoo",
+     "country": "FI",
+     "lat": 60.377,
+     "lon": 25.268
+    }
+   ]
+  },
+  {
+   "channel": "Samimaka (Oulu aurora)",
+   "id": "UCuwI7in4lmCth1zb0sewo_A",
+   "pages": 6,
+   "skip": [
+    "portrait"
+   ],
+   "cams": [
+    {
+     "match": [
+      "nallikari"
+     ],
+     "place": "Nallikari seaside, northern lights",
+     "locality": "Oulu",
+     "country": "FI",
+     "lat": 65.03,
+     "lon": 25.425
+    },
+    {
+     "match": [
+      "oulu"
+     ],
+     "place": "Northern lights, Oulu",
+     "locality": "Oulu",
+     "country": "FI",
+     "lat": 65.0121,
+     "lon": 25.4651
+    }
+   ]
+  },
+  {
+   "channel": "Lyngen North",
+   "id": "UCou65n58xvgd6BBkrbluObQ",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "lyngen"
+     ],
+     "place": "Northern lights, Lyngen Alps",
+     "locality": "Lyngen",
+     "country": "NO",
+     "lat": 69.73,
+     "lon": 20.16
+    }
+   ]
+  },
+  {
+   "channel": "SolfataraNews",
+   "id": "UCC1XzjkXRz0DLJfH-69t1vQ",
+   "pages": 6,
+   "skip": [
+    "global"
+   ],
+   "cams": [
+    {
+     "match": [
+      "pisciarelli"
+     ],
+     "place": "Campi Flegrei, Pisciarelli",
+     "locality": "Pozzuoli",
+     "country": "IT",
+     "lat": 40.829,
+     "lon": 14.146
+    }
+   ]
+  },
+  {
+   "channel": "Croatia - Live panorama view",
+   "id": "UC78C9zrxD8sWgQiGgi8VCrQ",
+   "pages": 6,
+   "skip": [
+    "multistream"
+   ],
+   "cams": [
+    {
+     "match": [
+      "drniš"
+     ],
+     "place": "Drniš",
+     "locality": "Drniš",
+     "country": "HR",
+     "lat": 43.862,
+     "lon": 16.156
+    },
+    {
+     "match": [
+      "punta planka"
+     ],
+     "place": "Punta Planka",
+     "locality": "Rogoznica",
+     "country": "HR",
+     "lat": 43.497,
+     "lon": 15.97
+    },
+    {
+     "match": [
+      "brodarica"
+     ],
+     "place": "Brodarica",
+     "locality": "Šibenik",
+     "country": "HR",
+     "lat": 43.68,
+     "lon": 15.92
+    },
+    {
+     "match": [
+      "kaprije"
+     ],
+     "place": "Kaprije",
+     "locality": "Kaprije",
+     "country": "HR",
+     "lat": 43.687,
+     "lon": 15.709
+    },
+    {
+     "match": [
+      "knin"
+     ],
+     "place": "Knin fortress",
+     "locality": "Knin",
+     "country": "HR",
+     "lat": 44.041,
+     "lon": 16.199
+    },
+    {
+     "match": [
+      "primošten"
+     ],
+     "place": "Primošten",
+     "locality": "Primošten",
+     "country": "HR",
+     "lat": 43.586,
+     "lon": 15.923
+    },
+    {
+     "match": [
+      "pirovac"
+     ],
+     "place": "Pirovac waterfront",
+     "locality": "Pirovac",
+     "country": "HR",
+     "lat": 43.819,
+     "lon": 15.667
+    },
+    {
+     "match": [
+      "prvić"
+     ],
+     "place": "Prvić Šepurine",
+     "locality": "Prvić",
+     "country": "HR",
+     "lat": 43.729,
+     "lon": 15.798
+    }
+   ]
+  },
+  {
+   "channel": "Min y Don Llandudno",
+   "id": "UC83brW6sqxKVjmjlqkh2Fqg",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "llandudno"
+     ],
+     "place": "Llandudno promenade",
+     "locality": "Llandudno",
+     "country": "GB",
+     "lat": 53.324,
+     "lon": -3.826
+    }
+   ]
+  },
+  {
+   "channel": "Birds Eye View Malta",
+   "id": "UC_JDyw-vsFmwJ35tojTiFeA",
+   "pages": 4,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "malta"
+     ],
+     "place": "Malta skyline",
+     "locality": "Valletta",
+     "country": "MT",
+     "lat": 35.899,
+     "lon": 14.514
+    }
+   ]
+  },
+  {
+   "channel": "AVIAÇÃO TV",
+   "id": "UC0R-K3crhMX9jzswbmfIORw",
+   "pages": 4,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "lisbon airport"
+     ],
+     "place": "Lisbon Airport",
+     "locality": "Lisbon",
+     "country": "PT",
+     "lat": 38.774,
+     "lon": -9.134
+    }
+   ]
+  },
+  {
+   "channel": "Beach Therapy 360",
+   "id": "UCX0vFoVpkqjIG-O9iEGgW1A",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "barceloneta"
+     ],
+     "place": "Barceloneta Beach",
+     "locality": "Barcelona",
+     "country": "ES",
+     "lat": 41.378,
+     "lon": 2.1925
+    }
+   ]
+  },
+  {
+   "channel": "Webcam Mont-Serein - Mont Ventoux",
+   "id": "UCliabsflPNc-ArPs5JfjKXw",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "venterol"
+     ],
+     "place": "Venterol, Drôme provençale",
+     "locality": "Nyons",
+     "country": "FR",
+     "lat": 44.392,
+     "lon": 5.096
+    },
+    {
+     "match": [
+      "sault"
+     ],
+     "place": "Lavender fields, Sault",
+     "locality": "Sault",
+     "country": "FR",
+     "lat": 44.091,
+     "lon": 5.409
+    },
+    {
+     "match": [
+      "mont-serein"
+     ],
+     "place": "Mont Ventoux, Mont-Serein",
+     "locality": "Beaumont-du-Ventoux",
+     "country": "FR",
+     "lat": 44.189,
+     "lon": 5.256
+    }
+   ]
+  },
+  {
+   "channel": "Ship Spotter's Paradise",
+   "id": "UC8-BXn_sXlaJmGSE9SkRTYg",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "skiathos"
+     ],
+     "place": "Skiathos bay and port",
+     "locality": "Skiathos",
+     "country": "GR",
+     "lat": 39.162,
+     "lon": 23.49
+    }
+   ]
+  },
+  {
+   "channel": "Beach Bar Lanzarote",
+   "id": "UCPNkrps0FeHFXthbVjR0nlA",
+   "pages": 6,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "costa teguise"
+     ],
+     "place": "Costa Teguise",
+     "locality": "Lanzarote",
+     "country": "ES",
+     "lat": 28.999,
+     "lon": -13.495
+    }
+   ]
+  },
+  {
+   "channel": "Warsaw Livestream",
+   "id": "UCPQH7Qez-TIVJv5cmquVFyg",
+   "pages": 5,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "warsaw",
+      "warszawa"
+     ],
+     "place": "Warsaw skyline",
+     "locality": "Warsaw",
+     "country": "PL",
+     "lat": 52.2297,
+     "lon": 21.0122
+    }
+   ]
+  },
+  {
+   "channel": "Royal Navy Museums",
+   "id": "UC3ppRbUdj-XrSIn-6YHGP3w",
+   "pages": 6,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "hms warrior"
+     ],
+     "place": "HMS Warrior, Portsmouth Harbour",
+     "locality": "Portsmouth",
+     "country": "GB",
+     "lat": 50.798,
+     "lon": -1.109
+    }
+   ]
+  },
+  {
+   "channel": "Madeira4K",
+   "id": "UCf7tjHt9FMpAlcNEBubcXAg",
+   "pages": 6,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "santo antónio"
+     ],
+     "place": "Funchal Bay from Santo António",
+     "locality": "Funchal",
+     "country": "PT",
+     "lat": 32.662,
+     "lon": -16.933
+    },
+    {
+     "match": [
+      "jardim da serra"
+     ],
+     "place": "Jardim da Serra",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.68,
+     "lon": -16.99
+    },
+    {
+     "match": [
+      "porto moniz"
+     ],
+     "place": "Porto Moniz",
+     "locality": "Madeira",
+     "country": "PT",
+     "lat": 32.867,
+     "lon": -17.17
+    }
+   ]
+  },
+  {
+   "channel": "Transmi TO (Bieszczady)",
+   "id": "UCzDaUVSGFfWtj2xoc8m_jZw",
+   "pages": 6,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "solina",
+      "polańczyk"
+     ],
+     "place": "Lake Solina",
+     "locality": "Polańczyk",
+     "country": "PL",
+     "lat": 49.392,
+     "lon": 22.457,
+     "max": 2
+    },
+    {
+     "match": [
+      "zakucie"
+     ],
+     "place": "Zakucie ski jumps",
+     "locality": "Zagórz",
+     "country": "PL",
+     "lat": 49.517,
+     "lon": 22.269
+    }
+   ]
+  },
+  {
+   "channel": "Moore Equipment (YUL)",
+   "id": "UCmM8fJ5uDl8pqu8nnd8Ixlg",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "montreal trudeau"
+     ],
+     "place": "Montréal-Trudeau Airport",
+     "locality": "Montréal",
+     "country": "CA",
+     "lat": 45.4706,
+     "lon": -73.7408,
+     "max": 2
+    }
+   ]
+  },
+  {
+   "channel": "SHOWME Caribbean",
+   "id": "UCRjMuOBDCfSsCNIe2p0_tdg",
+   "pages": 6,
+   "skip": [
+    "24/7 caribbean",
+    "underwater"
+   ],
+   "cams": [
+    {
+     "match": [
+      "maho beach"
+     ],
+     "place": "Maho Beach",
+     "locality": "Sint Maarten",
+     "country": "SX",
+     "lat": 18.04,
+     "lon": -63.12,
+     "max": 2
+    },
+    {
+     "match": [
+      "playa lagun"
+     ],
+     "place": "Playa Lagun",
+     "locality": "Curaçao",
+     "country": "CW",
+     "lat": 12.318,
+     "lon": -69.151
+    },
+    {
+     "match": [
+      "great bay beach",
+      "boardwalk"
+     ],
+     "place": "Great Bay, Philipsburg",
+     "locality": "Sint Maarten",
+     "country": "SX",
+     "lat": 18.022,
+     "lon": -63.045,
+     "max": 2
+    },
+    {
+     "match": [
+      "klein curaçao"
+     ],
+     "place": "Klein Curaçao",
+     "locality": "Curaçao",
+     "country": "CW",
+     "lat": 11.99,
+     "lon": -68.645
+    },
+    {
+     "match": [
+      "avila beach"
+     ],
+     "place": "Avila Beach",
+     "locality": "Willemstad",
+     "country": "CW",
+     "lat": 12.101,
+     "lon": -68.923
+    },
+    {
+     "match": [
+      "simpson bay"
+     ],
+     "place": "Simpson Bay",
+     "locality": "Sint Maarten",
+     "country": "SX",
+     "lat": 18.04,
+     "lon": -63.09
+    },
+    {
+     "match": [
+      "eagle beach"
+     ],
+     "place": "Eagle Beach",
+     "locality": "Aruba",
+     "country": "AW",
+     "lat": 12.552,
+     "lon": -70.057
+    },
+    {
+     "match": [
+      "royal sea aquarium resort"
+     ],
+     "place": "Seaquarium Beach",
+     "locality": "Willemstad",
+     "country": "CW",
+     "lat": 12.083,
+     "lon": -68.896
+    },
+    {
+     "match": [
+      "sorobon"
+     ],
+     "place": "Sorobon",
+     "locality": "Bonaire",
+     "country": "BQ",
+     "lat": 12.088,
+     "lon": -68.229
+    },
+    {
+     "match": [
+      "mambo beach"
+     ],
+     "place": "Mambo Beach",
+     "locality": "Willemstad",
+     "country": "CW",
+     "lat": 12.087,
+     "lon": -68.897
+    },
+    {
+     "match": [
+      "handelskade"
+     ],
+     "place": "Handelskade",
+     "locality": "Willemstad",
+     "country": "CW",
+     "lat": 12.105,
+     "lon": -68.935
+    }
+   ]
+  },
+  {
+   "channel": "STREETS OF THAILAND",
+   "id": "UC_cmEauzsnJ4trDXLiIug1Q",
+   "pages": 6,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "bang rak"
+     ],
+     "place": "Bang Rak Beach",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.57,
+     "lon": 100.057,
+     "max": 2
+    },
+    {
+     "match": [
+      "bang po"
+     ],
+     "place": "Bang Po Beach",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.573,
+     "lon": 99.955
+    },
+    {
+     "match": [
+      "lamai"
+     ],
+     "place": "Lamai Beach",
+     "locality": "Koh Samui",
+     "country": "TH",
+     "lat": 9.47,
+     "lon": 100.048
+    }
+   ]
+  },
+  {
+   "channel": "Flaming Fire (Stockholm)",
+   "id": "UCxdkv0StDfmn1dXWStAt2tw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "stockholm"
+     ],
+     "place": "Stockholm",
+     "locality": "Stockholm",
+     "country": "SE",
+     "lat": 59.3293,
+     "lon": 18.0686
+    }
+   ]
+  },
+  {
+   "channel": "Al Eman TV (Makkah)",
+   "id": "UCUGe5-q3z2_aURVAnyNJxow",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "makkah",
+      "kaaba"
+     ],
+     "place": "Masjid al-Haram",
+     "locality": "Mecca",
+     "country": "SA",
+     "lat": 21.4225,
+     "lon": 39.8262
+    }
+   ]
+  },
+  {
+   "channel": "Webcam Nepal",
+   "id": "UCp8FhsgzNmYR6F1HxTDMTvw",
+   "pages": 3,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "kathmandu"
+     ],
+     "place": "Kathmandu",
+     "locality": "Kathmandu",
+     "country": "NP",
+     "lat": 27.7172,
+     "lon": 85.324
+    },
+    {
+     "match": [
+      "pokhara",
+      "phewa"
+     ],
+     "place": "Pokhara, Phewa Lake",
+     "locality": "Pokhara",
+     "country": "NP",
+     "lat": 28.2096,
+     "lon": 83.9856
+    },
+    {
+     "match": [
+      "nagarkot"
+     ],
+     "place": "Nagarkot",
+     "locality": "Nagarkot",
+     "country": "NP",
+     "lat": 27.7154,
+     "lon": 85.52
+    },
+    {
+     "match": [
+      "namche",
+      "everest"
+     ],
+     "place": "Namche Bazaar",
+     "locality": "Khumbu",
+     "country": "NP",
+     "lat": 27.805,
+     "lon": 86.713
+    },
+    {
+     "match": [
+      "lukla"
+     ],
+     "place": "Lukla",
+     "locality": "Lukla",
+     "country": "NP",
+     "lat": 27.687,
+     "lon": 86.7314
+    }
+   ]
+  },
+  {
+   "channel": "Live Darshan (Varanasi)",
+   "id": "UCxjAZ5AgoK5eClocAXLw8bg",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "kashi vishwanath",
+      "काशी विश्वनाथ"
+     ],
+     "place": "Kashi Vishwanath Temple",
+     "locality": "Varanasi",
+     "country": "IN",
+     "lat": 25.3109,
+     "lon": 83.0107
+    }
+   ]
+  },
+  {
+   "channel": "Cape Town Live (flooring.co.za)",
+   "id": "UCMyCO_-D2eLocsvoiGob7iw",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "cape town",
+      "table mountain"
+     ],
+     "place": "Table Mountain",
+     "locality": "Cape Town",
+     "country": "ZA",
+     "lat": -33.918,
+     "lon": 18.4233
+    }
+   ]
+  },
+  {
+   "channel": "Muizenberg Wave Watchers",
+   "id": "UCf6fbt2V_PXTFtdg1fruTDA",
+   "pages": 1,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "muizenberg",
+      "surf"
+     ],
+     "place": "Muizenberg beach",
+     "locality": "Cape Town",
+     "country": "ZA",
+     "lat": -34.1086,
+     "lon": 18.4706
+    }
+   ]
+  },
+  {
+   "channel": "Hong Kong Airport Live Cam",
+   "id": "UCs3H75ak0L_iVLSmXwTORyQ",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "hong kong airport"
+     ],
+     "place": "Hong Kong International Airport",
+     "locality": "Hong Kong",
+     "country": "HK",
+     "lat": 22.308,
+     "lon": 113.9185
+    }
+   ]
+  },
+  {
+   "channel": "HK360VR (The Peak)",
+   "id": "UCNcY1o1xGgTX_19w0cXes9g",
+   "pages": 2,
+   "skip": [],
+   "cams": [
+    {
+     "match": [
+      "peak"
+     ],
+     "place": "Victoria Harbour from The Peak",
+     "locality": "Hong Kong",
+     "country": "HK",
+     "lat": 22.2759,
+     "lon": 114.1455
+    }
+   ]
+  }
+ ]
+}

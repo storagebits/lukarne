@@ -1,0 +1,55 @@
+# Republishes the catalogue every day to the public repo storagebits/lukarne-catalog, which the app downloads at
+# launch (AppGraph.CATALOG_URL). YouTube lives change video id whenever a channel restarts its stream, so a catalogue
+# frozen in the APK goes dark within days.
+#
+# The sources that may be refreshed by a robot, starting from the catalogue committed in app/src/main/assets:
+# - YouTube without search.list (--no-search): channels' uploads + videos.list, ~700 of the 10,000 daily units;
+# - the road cams (Caltrans, DelDOT, Digitraffic), whose streams are probed: dead ones drop out without a device.
+# Never Windy: its terms forbid "continuous scanning of a significant number of available Webcams" by automated
+# software, and redistributing what the API returns (the public catalogue holds no Windy cam, see DECISIONS V1.8).
+# A source that comes back with less than half its previous cams keeps the previous ones (build.py).
+#
+# Secrets (repo settings → Secrets → Actions): YOUTUBE_API_KEY, and CATALOG_DEPLOY_KEY, the private half of a
+# write deploy key of lukarne-catalog.
+name: catalog
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    # Only where the secrets are: not in the public mirror (storagebits/lukarne) nor in forks.
+    if: github.repository == 'storagebits/lukarne-dev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Rebuild the catalogue
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: tools/catalog/build.sh --only youtube --only caltrans --only deldot --only digitraffic --no-search
+      - name: Publish to lukarne-catalog
+        env:
+          DEPLOY_KEY: ${{ secrets.CATALOG_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/catalog && chmod 600 ~/.ssh/catalog
+          export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/catalog -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+          mkdir pub && cd pub && git init -q -b main
+          cp ../app/src/main/assets/catalog.json .
+          printf '%s\n' "# lukarne-catalog" "" \
+            "The webcam catalogue of lukarne, regenerated every day by CI. Generated file: do not edit." \
+            "Sources and credits: see the app's settings screen." > README.md
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "catalogue $(date -u +%Y-%m-%dT%H:%MZ)"
+          # One orphan commit, force-pushed: the repo stays one file deep instead of growing ~1 MB a day.
+          git push -qf git@github.com:storagebits/lukarne-catalog.git main

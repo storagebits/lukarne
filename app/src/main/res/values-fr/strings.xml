@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="globe_world">Le monde</string>
+    <string name="globe_day">JOUR</string>
+    <string name="globe_night">NUIT</string>
+    <string name="globe_cams">%1$d webcams</string>
+    <string name="globe_cams_live">%1$d webcams · %2$d en direct</string>
+    <string name="hint_travel">Flèches pour voyager</string>
+    <string name="hint_explore">explorer</string>
+    <string name="hint_watch">regarder</string>
+    <string name="hint_surprise">surprends-moi</string>
+    <string name="splash_tagline">une fenêtre ouverte sur le monde</string>
+    <string name="settings_title">Réglages</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_unit">Température</string>
+    <string name="settings_sources">SOURCES</string>
+    <string name="settings_credits">Caltrans (DOT de Californie) · DelDOT (DOT du Delaware) · Fintraffic Digitraffic, CC BY 4.0 · Directs YouTube, lus dans le lecteur YouTube · Météo : Open-Meteo.com, CC BY 4.0 · Cartes : Natural Earth</string>
+    <string name="hint_settings">RETOUR  réglages</string>
+    <string name="settings_stills">Images fixes</string>
+    <string name="settings_stills_hint">Désactivé : uniquement de la vidéo en direct. Activé : aussi les webcams qui rafraîchissent une image toutes les quelques minutes.</string>
+    <string name="on">Activé</string>
+    <string name="off">Désactivé</string>
+    <string name="leave_quit">Quitter lukarne</string>
+    <string name="leave_hint">RETOUR pour revenir au globe</string>
+    <plurals name="globe_live_only">
+        <item quantity="one">%d webcam en direct</item>
+        <item quantity="other">%d webcams en direct</item>
+    </plurals>
+    <string name="settings_mini">Vignette en sortant</string>
+    <string name="settings_mini_hint">Activé : une webcam quittée en plein écran continue dans un coin pendant que vous naviguez. RETOUR sur le globe entier la ferme.</string>
+    <string name="settings_demo">Démo : durée par webcam</string>
+    <string name="settings_demo_hint">La démo se lance depuis le menu que RETOUR ouvre sur le globe entier. DROITE passe à la suivante, OK reste dessus, RETOUR arrête.</string>
+    <string name="leave_demo">Mode démo</string>
+    <string name="demo_hint">OK  rester ici   ·   DROITE  suivante   ·   RETOUR  arrêter</string>
+    <string name="update_available">La version %1$s est disponible</string>
+    <string name="update_where">Sur la TV, dans l\'appli Downloader : %1$s</string>
+    <string name="update_installed">Version %1$s</string>
+</resources>

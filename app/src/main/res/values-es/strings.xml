@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="globe_world">El mundo</string>
+    <string name="globe_day">DÍA</string>
+    <string name="globe_night">NOCHE</string>
+    <string name="globe_cams">%1$d webcams</string>
+    <string name="globe_cams_live">%1$d webcams · %2$d en directo</string>
+    <string name="hint_travel">Flechas para viajar</string>
+    <string name="hint_explore">explorar</string>
+    <string name="hint_watch">ver</string>
+    <string name="hint_surprise">sorpréndeme</string>
+    <string name="splash_tagline">una ventana abierta al mundo</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_unit">Temperatura</string>
+    <string name="settings_sources">FUENTES</string>
+    <string name="settings_credits">Caltrans (DOT de California) · DelDOT (DOT de Delaware) · Fintraffic Digitraffic, CC BY 4.0 · Directos de YouTube, en el reproductor de YouTube · Tiempo: Open-Meteo.com, CC BY 4.0 · Mapas: Natural Earth</string>
+    <string name="hint_settings">ATRÁS  ajustes</string>
+    <string name="settings_stills">Imágenes fijas</string>
+    <string name="settings_stills_hint">Desactivado: solo vídeo en directo. Activado: también las webcams que actualizan una imagen cada pocos minutos.</string>
+    <string name="on">Activado</string>
+    <string name="off">Desactivado</string>
+    <string name="leave_quit">Salir de lukarne</string>
+    <string name="leave_hint">ATRÁS para volver al globo</string>
+    <plurals name="globe_live_only">
+        <item quantity="one">%d webcam en directo</item>
+        <item quantity="other">%d webcams en directo</item>
+    </plurals>
+    <string name="settings_mini">Miniatura al salir</string>
+    <string name="settings_mini_hint">Activado: una webcam que deja en pantalla completa sigue en una esquina mientras navega. ATRÁS en el globo entero la cierra.</string>
+    <string name="settings_demo">Demo: tiempo por webcam</string>
+    <string name="settings_demo_hint">La demo se inicia desde el menú que ATRÁS abre en el globo entero. DERECHA pasa a la siguiente, OK se queda, ATRÁS la detiene.</string>
+    <string name="leave_demo">Modo demo</string>
+    <string name="demo_hint">OK  quedarse   ·   DERECHA  siguiente   ·   ATRÁS  salir</string>
+    <string name="update_available">La versión %1$s está disponible</string>
+    <string name="update_where">En la TV, en la app Downloader: %1$s</string>
+    <string name="update_installed">Versión %1$s</string>
+</resources>
