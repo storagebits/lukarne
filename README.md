@@ -31,6 +31,8 @@ daylight. About 830 cameras in 41 regions: 680 live video streams (California an
 Built and tested on an NVIDIA SHIELD (Android 11); runs on Android TV / Google TV 9 and later. Decisions,
 measurements and the alternatives that were dropped are in [DECISIONS.md](DECISIONS.md).
 
+**Built with Claude Code**: an AI wrote most of the code; I steered it and tested every release on a SHIELD.
+
 ## Install
 
 1. On the TV, install **Downloader** (by AFTVnews) from the Play Store.
@@ -61,6 +63,19 @@ fullscreen keeps playing, with its sound, in the bottom-right corner while you b
 
 **Demo mode** (BACK on the whole globe → Demo mode): random live cams in daylight, never the same region twice in
 a row, each one announced by a title card while it starts; any key but RIGHT ends it.
+
+## Sources and credits
+
+- [Caltrans CWWP2](https://cwwp2.dot.ca.gov/) — California DOT live cameras.
+- [DelDOT](https://deldot.gov/) — Delaware DOT live cameras (the public feed behind deldot.gov's camera map).
+- [Fintraffic Digitraffic](https://www.digitraffic.fi/) weather cameras — CC BY 4.0.
+- YouTube live streams, played in YouTube's own embedded player under YouTube's terms.
+- Weather: [Open-Meteo](https://open-meteo.com/) — CC BY 4.0. Maps: [Natural Earth](https://www.naturalearthdata.com/) — public domain.
+- Fonts: Inter and Instrument Serif — SIL Open Font License (`third_party/fonts/`).
+
+## For developers
+
+Everything below is for building lukarne from source. **To watch webcams on your TV, you can stop here**: [Install](#install) and [Using it](#using-it) are all you need.
 
 ## Requirements
 
@@ -218,12 +233,3 @@ tools/
   deploy.sh device.sh adb-relay.sh shot.sh jank.sh framestats.py soak.sh quit-check.sh
   publish.sh release.sh make_screens.sh screens.py render_brand.swift
 ```
-
-## Sources and credits
-
-- [Caltrans CWWP2](https://cwwp2.dot.ca.gov/) — California DOT live cameras.
-- [DelDOT](https://deldot.gov/) — Delaware DOT live cameras (the public feed behind deldot.gov's camera map).
-- [Fintraffic Digitraffic](https://www.digitraffic.fi/) weather cameras — CC BY 4.0.
-- YouTube live streams, played in YouTube's own embedded player under YouTube's terms.
-- Weather: [Open-Meteo](https://open-meteo.com/) — CC BY 4.0. Maps: [Natural Earth](https://www.naturalearthdata.com/) — public domain.
-- Fonts: Inter and Instrument Serif — SIL Open Font License (`third_party/fonts/`).
