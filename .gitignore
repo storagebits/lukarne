@@ -9,6 +9,4 @@ captures/
 tools/catalog/.venv/
 __pycache__/
 tools/catalog/cache/
-
-# On-device captures (tools/shot.sh, tools/soak.sh)
 shots/

@@ -480,3 +480,71 @@ and carry nothing private.
   invisible, and `releases/latest` unchanged, until it is published) and `--dry-run` (build and checks, then prints
   what the mirror and the release would get); `publish.sh` gets `--dry-run`. `release.sh` appends the APK's and the
   certificate's SHA-256 to the notes, as the 1.0.0 notes had by hand.
+
+## Mirror rebuilt as one 1.0.1 commit (2026-10-18, ALG-36)
+
+Board decision (storagebits, card accepted 2026-10-18): rebuild the history of `storagebits/lukarne` before it goes public,
+so the pre-publication history stays private; drop `v1.0.0`; `v1.0.1` is the first public release. Choices made alone:
+
+- **Backup first, outside any repo.** a private backup outside any repo: a `--mirror` clone, a bundle of
+  `--all` (verified: same 2 refs, same 2 commits), the `v1.0.0` assets and notes with their SHA-256. Kept on that machine only:
+  the old history holds what the rebuild removes, so it must not be pushed anywhere.
+- **The orphan commit is made by `tools/publish.sh` itself**, pointed (`LUKARNE_PUBLIC`) at an empty local bare repo:
+  the tree is exactly what every future publish produces, with no second copy of the exclusion list. The one
+  force-push then goes from that bare repo, `--force-with-lease=main:c0a2ec5`, so it fails if the mirror moved.
+  `publish.sh` and `release.sh` are unchanged; `release.sh --draft` then found "nothing new to publish" and only
+  created the draft.
+- **Author of the public commit.** The two old commits carried the owner's personal address as author. The new one is
+  the forge identity (`ALGOTITAN agents <agents@algotitan.invalid>`): no personal email in the public history. The
+  `LICENSE` still names him as copyright holder. If he wants his name on the commit, the next publish can carry it.
+- **Tree differences with `lukarne-dev` (9dc9650)** are the exclusions (`shots/`, `BRIEF.md`, `REPORT.md`,
+  `REPRO.md`) plus the `shots/` line `publish.sh` appends to the mirror's `.gitignore`.
+- **The draft has no tag yet.** A GitHub draft release creates its tag (`v1.0.1` on `main`) only when published, so
+  the mirror holds one branch and no tag until storagebits publishes it.
+
+## lukarne-catalog README and licence (2026-10-19, ALG-83)
+
+- **Context:** the GitHub repos audit (ALG-77) found the public `storagebits/lukarne-catalog` with a 4-line README and
+  no licence. The daily workflow rebuilds that repo from scratch (one orphan commit, force-pushed) and wrote the
+  README inline, so a pull request on the public repo alone would be erased by the next 04:17 UTC run.
+- **Choice:** the public README (format of `catalog.json`, the daily refresh, credits) and an MIT `LICENSE` live in
+  `tools/catalog/publish/`, and the workflow copies them next to `catalog.json`. Options set aside: a PR on the
+  public repo only (lost the next morning); a `git checkout` of the previous public README in the workflow (any
+  manual edit there would still be wiped by the next force-push of a hand-made tree).
+- **Licence:** MIT, copyright "storagebits", for the structure and curation; each cam's data stays under its
+  source's terms (Digitraffic CC BY 4.0 with its credit line, Caltrans and DelDOT feeds, YouTube streams in YouTube's
+  player). Windy stays out (V1.8).
+- **Gate:** merging this publishes on a public repo at the next run, so it merges together with the lukarne-catalog
+  PR, after the owner's card, never before.
+
+## Owner's name kept out of the export (2026-10-22, ALG-158)
+
+Board rule of 2026-10-21: in anything public the owner is named only by his GitHub handle `storagebits`.
+- **An export scan, new here.** Lukarne had none (Almanak has `tools/publish_scan.py`). `tools/publish_scan.py` now
+  holds one rule, `owner-name`: the family name in any case and anywhere, the first name (with or without its accent)
+  as a word (a letter on either side makes another word, "_", digits, "-" and a camelCase boundary do not). Each
+  line is matched as written and with its JSON/Kotlin, HTML and URL escapes decoded, NFKC-normalised (decomposed
+  cedilla, fullwidth letters) and without format characters (soft hyphen, zero-width space). Binaries are read
+  through their printable strings (ASCII, UTF-16 LE and BE), PNG text chunks, zip/jar and gzip members (the Gradle
+  wrapper's manifest has a Built-By line); symlinks through their target; paths too. A hit prints the rule and the
+  location, never the text. Exit 0 clean, 1 hits, 3 scan failed. About 8 s on the exported tree.
+- **Place names pass.** "Saint-/Sainte-/St-/St./Ste-" before the first name is a place (Quebec cams may carry one);
+  "Jean-" before it is still a person. Options set aside: a list of allowed files (would also allow the name next
+  to a place), case-sensitive matching (misses an upper-case LICENSE).
+- **Where it runs.** `tools/publish.sh` scans the exact tree it would publish (with that tree's own copy of the
+  scanner) and the commit message, after the exclusions, before any commit, `--dry-run` included; any non-zero exit
+  stops it. CI (`.github/workflows/scan.yml`) runs the planted cases (`tools/publish_scan_test.py`) and the scan of
+  the whole committed tree on every push: stricter than the export (it also reads `REPORT.md`, `BRIEF.md`,
+  `REPRO.md`), on purpose, since the board rule covers every repo file. The test file builds the names from pieces
+  so it does not trip the scan itself.
+- **The public commit's identity is pinned.** `publish.sh` commits as `storagebits` with the GitHub noreply address,
+  whatever the machine's git identity (the forge's is `ALGOTITAN agents`, ALG-36): the publish checklist's step 2,
+  and the identity of the mirror's current head `84251fd`.
+- **Hits fixed.** Four lines of this file and one of `REPORT.md` named him: now "storagebits" or "the owner". The
+  public tree (`storagebits/lukarne` at `84251fd`) scans clean.
+- **The LICENSE fix made on the public repo (`84251fd`)** carries the same file as `871dc97` here (byte-identical).
+  `publish.sh` has no `--ported` option (that is Almanak's export): it clones the mirror's `main`, replaces the whole
+  tree with this repo's `HEAD` and commits on top, so the next publish keeps `84251fd` in the mirror's history and
+  shows no change to `LICENSE`. Nothing to carry by hand.
+- **Not in scope, kept as debt:** the scan has none of Almanak's other rules (private IPs, internal hostnames, home
+  paths, e-mails, key files, EXIF, gitleaks).

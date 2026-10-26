@@ -158,6 +158,8 @@ tools/deploy.sh
   the logo, the app downloads it (at most once an hour) and uses whichever of it and the APK's own copy is newer;
   offline it keeps the last one it had. Its secrets: `YOUTUBE_API_KEY` and `CATALOG_DEPLOY_KEY` (a write deploy
   key of lukarne-catalog). Run it by hand with `gh workflow run catalog`.
+  The public repo's `README.md` and `LICENSE` are copied from `tools/catalog/publish/`: edit them there, since every
+  run replaces the whole public repo.
 - **Commit and push every local build.** The daily run starts from the `catalog.json` *on GitHub* and the device keeps
   the newest one it sees: a catalogue built and installed from your Mac but not pushed works that evening, then the
   next morning's (newer, built without your change) replaces it on the Shield.

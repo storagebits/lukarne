@@ -45,9 +45,8 @@ jobs:
           export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/catalog -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
           mkdir pub && cd pub && git init -q -b main
           cp ../app/src/main/assets/catalog.json .
-          printf '%s\n' "# lukarne-catalog" "" \
-            "The webcam catalogue of lukarne, regenerated every day by CI. Generated file: do not edit." \
-            "Sources and credits: see the app's settings screen." > README.md
+          # The public repo's README and LICENSE (format, refresh, credits) are kept in tools/catalog/publish/.
+          cp ../tools/catalog/publish/README.md ../tools/catalog/publish/LICENSE .
           git add .
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -qm "catalogue $(date -u +%Y-%m-%dT%H:%MZ)"

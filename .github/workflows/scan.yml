@@ -1,0 +1,27 @@
+# The export scan of tools/publish_scan.py: its planted cases, then this commit's tree as tools/publish.sh exports it.
+name: scan
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Planted cases
+        run: python3 -I tools/publish_scan_test.py
+      - name: Scan the committed tree
+        run: |
+          mkdir "$RUNNER_TEMP/tree"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/tree"
+          python3 -I tools/publish_scan.py "$RUNNER_TEMP/tree"
